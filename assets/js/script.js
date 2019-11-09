@@ -15,12 +15,8 @@ var windowScroll = function () {
             if ($(window).scrollTop() > 70)
             {
                 $('.site-header').addClass('site-header-nav-scrolled');
-                $('.icon-logo').addClass('site-header-nav-scrolled');
-
             } else {
                 $('.site-header').removeClass('site-header-nav-scrolled');
-                $('.icon-logo').removeClass('site-header-nav-scrolled');
-
             }
         }else{
             //如果是手机则将顶栏移除界面
@@ -34,17 +30,6 @@ var windowScroll = function () {
  });
 };
 
-function headerSubmenu() {
-    $('.site-header-nav').find('.site-header-nav-item').each(function() {
-        $(this).hover(function() {
-            $(this).find('.submenu').show()
-        }, function() {
-            $(this).find('.submenu').hide()
-        })
-    })
-};
-
 $( document ).ready(function() {
     windowScroll();
-    headerSubmenu();
 });

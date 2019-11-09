@@ -4,7 +4,6 @@
     padding-left: 30px;
     border-left: 8px solid #4183c4;
 }
-.icon-logo{fill: #000;}
 
 #posts-list li {
     margin: 40px 0;
@@ -95,8 +94,4 @@
     border-color: transparent #4183c4 transparent transparent;
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
-}
-
-.col-md-9 {
-     padding-left:60px;
 }

@@ -5,13 +5,23 @@ css: ['index.css', 'sidebar-popular-repo.css']
 ---
 <section class="jumbotron">
     <div class="container">
-        <h3>{{ site.subtitle }}</h3>
+        <h1>{{ site.title }}</h1>
         <div id="jumbotron-meta-info">
-             {% for nav in site.labels %}
-                <span class="meta-info-index hvr-grow">
-                    <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
-                </span>
-            {% endfor %}
+            {% if site.location %}
+            <span class="meta-info">
+                <span class="octicon octicon-location"></span>
+                {{ site.location }}
+            </span> {% endif %}
+            {% if site.company %}
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-organization"></span>
+                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+            </span> {% endif %}
+            {% if site.github_username %}
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-mark-github"></span>
+                <a href="{{ site.github_url }}" target="_blank">@{{ site.github_username }}</a>
+            </span> {% endif %}
         </div>
     </div>
 </section>
@@ -40,6 +50,9 @@ css: ['index.css', 'sidebar-popular-repo.css']
 
             <!-- Pagination -->
             {% include pagination.html %}
+
+            <!-- Comments -->
+            {% include disqus-comments.html %}
 
         </div>
 

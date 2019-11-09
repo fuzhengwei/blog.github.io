@@ -6,31 +6,31 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
-subtitle: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获
-name: bugstack虫洞栈
-email: 184172133@qq.com
-description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
-keywords: bugstack,虫洞栈,Spring,Spring Boot,Spring Cloud,MongoDB,python,数据分析,Docker,架构,大数据,开发者,编程,代码,开源,Programmer,Coder,Geek,IT技术博客,Java,Python
-encoding: "utf-8"
-favicon: favicon.ico 
+title: bugstack虫洞栈 # ex. I m Chuan
+name: bugstack虫洞栈 # ex. DONGChuan
+email: my_email_address@lalala.com
+location: My location # ex. Nice, France
+company: MyCompany
+company_url: my_company_website
+github_url: my_github_url # ex. https://github.com/DONGChuan
+github_username: # ex. DONGChuan
+description: description_of_your_web_site
+favicon: favicon.png # Image must be in assets/images
+repository: fuzhengwei/fuzhengwei.github.io # ex. DONGChuan/DONGChuan.github.io
 
-repository: fuzhengwei/fuzhengwei.github.io
-github_url: https://github.com/fuzhengwei
-url: http://itstack.org
-enforce_ssl: machengyu.net
-
-baidu_analysis: xxxx(换成自己的)
+# The base hostname & protocol for your site
+# For local test, please use http://localhost:4000
+# For production, use your github page url. ex. http://dongchuan.github.io
+url: http://fuzhengwei.github.io
 
 ## Gem
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-geo-pattern
   - rouge
   - kramdown
   - jekyll-github-metadata
-  - jekyll-octicons
-  
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -46,144 +46,48 @@ defaults: []
 kramdown:
   input: GFM
   enable_coderay: true
-  syntax_highlighter: rouge
 
-syntax_highlighter_opts:
-   coderay_line_numbers:  nil
+# Disque
+disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
 paginate_path: 'page:num'
 
-# Navigation. top menu list
-menus:
-
-  -
-    href: /tech.html
-    label: 技术
-    target: _self
-
-  -
-    href: /life.html
-    label: 生活
-    target: _self
-
-  -
-    href: /arch.html
-    label: 架构
-    target: _self
-
-  -
-    href: /payment.html
-    label: 支付
-    target: _self
-
-  -
-    href: /blockchain.html
-    label: 区块链
-    target: _self
-
-
-# Navigation. main menu list
+# Navigation. If you do not like these modules, just remove them :D
 navs:
-
   -
     href: /
     label: Home
 
   -
-    href: /open-source.html
-    label: 开源
-    target: _self
+    href: /open-source
+    label: Open-Source
 
   -
-    href: /arch.html
-    label: 微服务架构
-    target: _self
+    href: /blog
+    label: Blog
 
   -
-    href: /python.html
-    label: Python德塔赛
-    target: _self
+    href: /bookmark
+    label: Bookmark
 
   -
-    href: /archives.html
-    label: 归档
-    target: _self
-
-  -
-    href: /about.html
-    label: 我就是我
-    target: _self
-
-
-# labels. my blog key words
-labels:
-
-# selected articles，精选文章
-classes:
-
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
-
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
-
-  -
-    href: /python.html
-    name: Python德塔赛
-    describe: python数据分析，爬虫
-
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
+    href: /about
+    label: About
 
 # Sidebar to show popular repo
-side_bar_repo_limit: 6 # Number of repos to show
+side_bar_repo_limit: 5 # Number of repos to show
 
 # Google Analytics
-# analytics :
-# provider : google
-#   google :
-#     tracking_id : ''  # ex. UA-72165600-X
+analytics :
+  provider : google
+  google :
+      tracking_id : 'tracking_id'  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
+skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
-skill_mobile_app_keywords: [vuejs, hyhird app]
-
-
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: xxxx(换成自己的)
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: xxxx(换成自己的)
-    repo: xxxx(换成自己的)
-    oauth:
-        client_id: xxxx(换成自己的)
-        client_secret: xxxx(换成自己的)
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: xxxx(换成自己的)
-    repo: xxxx(换成自己的)
-    clientID: xxxx(换成自己的)
-    clientSecret: xxxx(换成自己的)
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
-github: [metadata]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
+skill_mobile_app_keywords: [Android, Sketch UI Desgin]
