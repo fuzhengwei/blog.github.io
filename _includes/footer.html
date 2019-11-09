@@ -1,0 +1,50 @@
+
+<footer class="container">
+    <div class="site-footer">
+          <div class="card text-center">
+            <ul class="list-inline" style="margin-left: 0;">
+              <li>
+                <a target="_blank" href="https://github.com/pony-maggie">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://blog.csdn.net/pony_maggie">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa  fa-stack-1x fa-inverse">C</i>
+                  </span>
+                </a>
+              </li>
+          </ul>
+        </div>
+        <div class="site-footer-links mobile-hidden">
+            {% for nav in site.labels %}
+            <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+            {% endfor %}
+        </div>
+        <div class="scrolltop">
+            <a href="http://www.miitbeian.gov.cn/" >粤ICP备19038536号-1</a>
+        </div>
+        <div class="rss">
+            <a href="{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span></a>
+            Power by <a href="https://github.com/DONGChuan/Yummy-Jekyll">Yummy Jekyll</a>
+        </div>
+    </div>
+    <!-- Third-Party JS -->
+    <script type="text/javascript" src="/bower_components/geopattern/js/geopattern.min.js"></script>
+    <!-- My JS -->
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+    {% for javascript in page.javascript %}
+    <script src="/assets/js/{{javascript}}"></script>
+    {% endfor %}
+    
+     <!-- Cnzz Analytics -->
+       <div style="display:none">
+         <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260945749'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260945749' type='text/javascript'%3E%3C/script%3E"));</script>
+       </div>
+     <!-- Cnzz Analytics -->
+</footer>
