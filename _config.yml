@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈
-subtitle: 全栈实践者。关注金融支付，分布式技术，数据分析，区块链技术。热爱生活，拥抱开源
-name: 付政委
+title:  bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
+subtitle: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获
+name: bugstack虫洞栈
 email: 184172133@qq.com
 description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
 keywords: bugstack,虫洞栈,Spring,Spring Boot,Spring Cloud,MongoDB,python,数据分析,Docker,架构,大数据,开发者,编程,代码,开源,Programmer,Coder,Geek,IT技术博客,Java,Python
