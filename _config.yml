@@ -51,12 +51,63 @@ disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
 paginate: 10
 paginate_path: 'page:num'
 
+# Navigation. top menu list
+menus:
+
+
+  -
+    href: /cartoon.html
+    label: 漫画
+    target: _self
+
+  -
+    href: /it.html
+    label: 深度
+    target: _self
+
+  -
+    href: /zsxq.html
+    label: 星球
+    target: _self
+
+  -
+    href: /life.html
+    label: 故事
+    target: _self
+
+  -
+    href: /arch.html
+    label: 架构
+    target: _self
+
+  -
+    href: /link.html
+    label: 友链
+    target: _self
+
+  -
+    href: /about.html
+    label: 关于
+    target: _self
+
 # Navigation. If you do not like these modules, just remove them :D
 navs:
   -
     href: /
     label: Home
+  -
+    href: /spring-boot.html
+    label: Spring Boot
+    target: _self
+    subnav:
 
+      -
+        subHref: /spring-boot.html
+        subLabel: Spring Boot
+
+      -
+        subHref: /spring-cloud.html
+        subLabel: Spring Cloud
   -
     href: /open-source
     label: Open-Source
@@ -72,6 +123,39 @@ navs:
   -
     href: /about
     label: About
+
+# labels. my blog key words
+labels:
+
+  -
+    href: /payment.html
+    label: Pay
+    target: _self
+
+  -
+    href: /fastdfs.html
+    label: FastDFS
+    target: _blank
+
+  -
+    href: /mongodb.html
+    label: MongoDB
+    target: _blank
+
+  -
+    href: /docker.html
+    label: Docker
+    target: _blank
+
+  -
+    href: /open-source.html
+    label: Code
+    target: _blank
+
+  -
+    href: /gitchat.html
+    label: Chat
+    target: _blank
 
 # selected articles
 classes:
@@ -94,6 +178,8 @@ classes:
 # ---------------- #
 #       RSS        #
 # ---------------- #
+subscribe_rss: /feed.xml
+
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
 
@@ -108,3 +194,29 @@ skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQ
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
 skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
 skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+  username: fuzhengwei
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+  owner: fuzhengwei
+  repo: fuzhengwei.github.io
+  oauth:
+    client_id: 61bfc53d957e74e78f8f
+    client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+# https://github.com/gitalk/gitalk#install
+gitalk:
+  owner: fuzhengwei
+  repo: fuzhengwei.github.io
+  clientID: df8beab2190bec20352a
+  clientSecret: 7eeeb4369d699c933f02a026ae8bb1e2a9c80e90
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : true
