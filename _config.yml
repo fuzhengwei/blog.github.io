@@ -18,7 +18,7 @@ favicon: favicon.ico
 repository: fuzhengwei/fuzhengwei.github.io
 github_url: https://github.com/fuzhengwei
 url: https://fuzhengwei.github.io
-enforce_ssl: uzhengwei.github.io
+enforce_ssl: fuzhengwei.github.io
 
 ## Gem
 plugins:
