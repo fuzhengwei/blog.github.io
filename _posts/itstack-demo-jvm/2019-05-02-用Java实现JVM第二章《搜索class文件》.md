@@ -6,20 +6,20 @@ tagline: by 付政委
 tag: [jvm,itstack-demo-jvm]
 ---
 
-**案例简述**
+## 案例简述
 本章节主要了解Java虚拟机从哪里寻找class文件并且读取class内字节码
 
-**环境准备**
+## 环境准备
 1、jdk 1.8.0 
 2、IntelliJ IDEA Community Edition 2018.3.1 x64
 3、Notepad++ （插件安装HEX-Editor，用于查看class字节）
 
-**配置信息**
+## 配置信息
 1、调试配置
 2.1、配置位置：Run/Debug Configurations -> program arguments
 2.2、配置内容：-Xjre "C:\Program Files\Java\jdk1.8.0_161\jre" E:\itstack\git\istack-demo\itstack-demo-jvm\itstack-demo-jvm-02\target\test-classes\org\itstack\demo\test\HelloWorld
 
-**代码示例**
+## 代码示例
 ```java
 itstack-demo-jvm-02
 ├── pom.xml
@@ -463,7 +463,7 @@ public class Main {
 }
 ```
 
-**测试结果**
+## 测试结果
 ```java
 classpath：org.itstack.demo.jvm.classpath.Classpath@4bf558aa class：E:\itstack\git\istack-demo\itstack-demo-jvm\itstack-demo-jvm-02\target\test-classes\org\itstack\demo\test\HelloWorld args：null
 classData：

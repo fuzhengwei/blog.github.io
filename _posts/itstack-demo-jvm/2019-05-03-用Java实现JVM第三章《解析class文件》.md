@@ -6,20 +6,20 @@ tagline: by 付政委
 tag: [jvm,itstack-demo-jvm]
 ---
 
-**案例介绍**
+## 案例介绍
 本案例主要介绍通过java代码从class文件中解析；class文件、常量池、属性表；
 >作为类（或者接口）信息的载体，每个class文件都完整地定义了一个类。为了使java程序可以“编写一次，处处运行”，Java虚拟机规范对class文件格式进行了严格的规定。但是另外一方面，对于从哪里加载class文件，给了足够多的自由。Java虚拟机实现可以从文件系统读取和从JAR（或ZIP）压缩包中提取clss文件。除此之外，也可以通过网络下载、从数据库加载，甚至是在运行中直接生成class文件。Java虚拟机规范中所指的class文件，并非特指位于磁盘中的.class文件，而是泛指任何格式符号规范的class数据。
 
-**环境准备**
+## 环境准备
 1、jdk 1.8.0
 2、IntelliJ IDEA Community Edition 2018.3.1 x64
 
-**配置信息**
+## 配置信息
 1、调试配置
 2.1、配置位置：Run/Debug Configurations -> program arguments
 2.2、配置内容：-Xjre "C:\Program Files\Java\jdk1.8.0_161\jre" java.lang.String
 
-**代码示例**
+## 代码示例
 ```java
 itstack-demo-jvm-03
 ├── pom.xml
@@ -548,7 +548,7 @@ public class Main {
 }
 ```
 
-**测试结果**
+## 测试结果
 ```java
 "C:\Program Files\Java\jdk1.8.0_161\bin\java.exe" "-javaagent:D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.1\lib\idea_rt.jar=61458:D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;E:\itstack\git\istack-demo\itstack-demo-jvm\itstack-demo-jvm-03\target\classes;D:\Program Files (x86)\apache-maven-2.2.1\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\Program Files (x86)\apache-maven-2.2.1\repository\org\projectlombok\lombok\1.18.0\lombok-1.18.0.jar;D:\Program Files (x86)\apache-maven-2.2.1\repository\com\alibaba\fastjson\1.2.40\fastjson-1.2.40.jar" org.itstack.demo.jvm.Main -Xjre "C:\Program Files\Java\jdk1.8.0_161\jre" java.lang.String
 classpath：org.itstack.demo.jvm.classpath.Classpath@4bf558aa class：java.lang.String args：null
