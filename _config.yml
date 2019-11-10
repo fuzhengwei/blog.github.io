@@ -73,7 +73,19 @@ navs:
   -
     href: /
     label: Home
+  -
+    href: /itstack-demo-netty.html
+    label: Netty4.x专题
+    target: _self
+    subnav:
 
+      -
+        subHref: /spring-boot.html
+        subLabel: 入门篇
+
+      -
+        subHref: /spring-cloud.html
+        subLabel: 拓展篇
   -
     href: /java.html
     label: Java
