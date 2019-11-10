@@ -82,3 +82,9 @@ public class NettyServer {
 1、启动server服务端
 2、连接server服务端
 ![](https://itstack.gitee.io/images_bed/img/netty4.1/netty-01-2.jpg)
+
+上一篇：[netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》](/itstack-demo-netty-1/2019/07/30/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E9%9B%B6-%E5%88%9D%E5%85%A5JavaIO%E4%B9%8B%E9%97%A8BIO-NIO-AIO%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0.html)
+
+下一篇：[netty案例，netty4.1基础入门篇一《嗨！NettyServer》](/itstack-demo-netty-1/2019/07/30/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E9%9B%B6-%E5%88%9D%E5%85%A5JavaIO%E4%B9%8B%E9%97%A8BIO-NIO-AIO%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&学习更多原创专题案例！
