@@ -74,18 +74,26 @@ navs:
     href: /
     label: Home
   -
-    href: /itstack-demo-netty.html
+    href: /itstack-demo-netty/itstack-demo-netty.html
     label: Netty4.x专题
     target: _self
     subnav:
 
       -
-        subHref: /spring-boot.html
-        subLabel: 入门篇
+        subHref: /itstack-demo-netty/itstack-demo-netty-1.html
+        subLabel: 基础入门篇
 
       -
-        subHref: /spring-cloud.html
-        subLabel: 拓展篇
+        subHref: /itstack-demo-netty/itstack-demo-netty-2.html
+        subLabel: 中级拓展篇
+
+      -
+        subHref: /itstack-demo-netty/itstack-demo-netty-3.html
+        subLabel: 高级应用篇
+
+      -
+        subHref: /itstack-demo-netty/itstack-demo-netty-4.html
+        subLabel: 源码分析篇
   -
     href: /java.html
     label: Java
