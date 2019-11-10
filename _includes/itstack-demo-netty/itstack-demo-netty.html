@@ -4,10 +4,6 @@
 
         <ul id="posts-list">
             {% for post in site.posts %}
-
-            Test:{{ post.tag }}
-            Test:{{ post.category }}
-
             {% if post.tag[0]=='netty' %}
             <li class="posts-list-item">
                 <div class="posts-content">
