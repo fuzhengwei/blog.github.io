@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈 v1.2.6 | 沉淀、分享、成长，让自己和他人都能有所收获
+title:  bugstack虫洞栈 v1.2.7 | 沉淀、分享、成长，让自己和他人都能有所收获
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: bugstack虫洞栈
 email: 184172133@qq.com
@@ -82,7 +82,6 @@ navs:
     label: 编程基础
     target: _self
     subnav:
-
       - subHref: /itstack-demo-springcloud/itstack-demo-springcloud.html
         subLabel: Spring Cloud
 
@@ -91,19 +90,15 @@ navs:
     label: Netty4.x专题
     target: _self
     subnav:
-
       -
         subHref: /itstack-demo-netty/itstack-demo-netty-1.html
         subLabel: 基础入门篇
-
       -
         subHref: /itstack-demo-netty/itstack-demo-netty-2.html
         subLabel: 中级拓展篇
-
       -
         subHref: /itstack-demo-netty/itstack-demo-netty-3.html
         subLabel: 高级应用篇
-
       -
         subHref: /itstack-demo-netty/itstack-demo-netty-4.html
         subLabel: 源码分析篇
@@ -113,17 +108,12 @@ navs:
     label: 架构师专题
     target: _self
     subnav:
-
       -
         href: /itstack-demo-jvm/itstack-demo-jvm.html
-        label: 用Java实现JVM
-        target: _self
-
+        subLabel: 用Java实现JVM
       -
         href: /itstack-demo-agent/itstack-demo-agent.html
-        label: Agent全链路监控
-        target: _self
-
+        subLabel: Agent全链路监控
       -
         subHref: /itstack-demo-ddd/itstack-demo-ddd.html
         subLabel: 领域驱动设计
