@@ -38,13 +38,13 @@ javax.net.ssl.SSLHandshakeException: General SSLEngine problem
 
 ## 生成证书 | 过程较长，耐心完成
 
-![微信公众号：bustack虫洞栈 | 生成证书](https://bugstack.cn/wp-content/uploads/2019/09/netty-2-13-2.png)
+![微信公众号：bustack虫洞栈 | 生成证书](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-2-13-2.png)
 
 >1、安装OpenSSL
 
 安装完成后D:\Program Files\OpenSSL-Win64\bin目录下，cnf文件复制到bin目录里，否则在操作工程中如果未指定路径，会报错；
 [https://stackoverflow.com/questions/22906927/openssl-windows-error-in-req/27918971](https://stackoverflow.com/questions/22906927/openssl-windows-error-in-req/27918971)
-![OpenSSL Windows: error in req](https://bugstack.cn/wp-content/uploads/2019/09/netty-2-13-1.png)
+![OpenSSL Windows: error in req](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-2-13-1.png)
 
 >2、生成服务端和客户端私钥 | 命令中需要输入密码测试可以都输入123456
 

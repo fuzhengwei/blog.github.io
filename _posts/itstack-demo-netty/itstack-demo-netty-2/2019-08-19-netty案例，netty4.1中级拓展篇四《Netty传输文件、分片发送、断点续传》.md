@@ -434,15 +434,15 @@ public class NettyClientTest {
 
 >启动NettyServerTest *默认接收地址为E盘根目录
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-04-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-04-1.png)
 
 >启动NettyClientTest *设置传输文件
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-04-2.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-04-2.png)
 
 >文件传输结果
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-04-3.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-04-3.png)
 
 >服务端执行结果
 

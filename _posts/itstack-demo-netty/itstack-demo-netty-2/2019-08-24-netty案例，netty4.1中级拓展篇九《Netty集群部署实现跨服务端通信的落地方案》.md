@@ -7,7 +7,7 @@ tag: [netty,itstack-demo-netty-2]
 ---
 
 ## 前言介绍
-![微信公众号：bugstack虫洞栈](https://bugstack.cn/wp-content/uploads/2019/09/netty-2-09-3.png)
+![微信公众号：bugstack虫洞栈](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-2-09-3.png)
 
 Netty的性能非常好，在一些小型用户体量的socket服务内，仅部署单台机器就可以满足业务需求。但当遇到一些中大型用户体量的服务时，就需要考虑讲Netty按照集群方式部署，以更好的满足业务诉求。但Netty部署集群后都会遇到跨服务端怎么通信，也就是有集群服务X和Y，用户A链接服务X，用户B链接服务Y，那么他们都不在一个服务内怎么通信？本章节将介绍一种实现方式案例，以满足跨服务之间的用户通信。但实际场景中需要进行一些扩展性改造，案例仅将核心主干思路做以实现，只是一种思路指导，并不能直接使用于业务开发。
 
@@ -555,7 +555,7 @@ util = {
 
 >启动Redis服务 | 案例中使用windwos版本
 
-![微信公众号：bugstack虫洞栈](https://bugstack.cn/wp-content/uploads/2019/09/netty-2-09-1.png)
+![微信公众号：bugstack虫洞栈](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-2-09-1.png)
 
 >启动2次SpringBoot，模拟Netty集群[不同端口8080、8081] | Plugins/spring-boot/run 双击启动
 
@@ -596,7 +596,7 @@ util = {
 
 >最终运行效果
 
-![微信公众号：bugstack虫洞栈](https://bugstack.cn/wp-content/uploads/2019/09/netty-2-09-2.png)
+![微信公众号：bugstack虫洞栈](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-2-09-2.png)
 
 
 ------------

@@ -156,7 +156,7 @@ class TestPromise {
 
 >DefaultChannelPromise类组织结构图 | 承接Java并发包Future并增强实现
 
-![微信公众号：bugstack虫洞栈 | DefaultChannelPromise类组织结构图](https://bugstack.cn/wp-content/uploads/2019/09/netty-code-6-1.png)
+![微信公众号：bugstack虫洞栈 | DefaultChannelPromise类组织结构图](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-code-6-1.png)
 
 Netty中DefalutPromise是一个非常常用的类，这是Promise实现的基础。DefaultChannelPromise是DefalutPromise的子类，加入了channel这个属性。
 

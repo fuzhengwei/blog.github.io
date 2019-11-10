@@ -24,7 +24,7 @@ tag: [spring,itstack-demo-springcloud]
 ## 案例说明
 采用 Eureka Server 运行3个实例｛node01、node02、node03｝构建服务发现集群，解决单点问题(zookeeper也是至少部署三组以上构建一个集群)。但Eureka Server 采用的是去中心化的架构的 Peer to Peer 对等通信，没有 master/slave 区分，每一个 Peer 都是对等的。在这种架构中，节点通过彼此互相注册来提高可用性，每个节点需要添加一个或多个有效的 serviceUrl 指向其他节点。每个节点都可被视为其他节点的副本。
 
-![微信公众号：bugstack虫洞栈 & Eureka 官网的架构图](https://bugstack.cn/wp-content/uploads/2019/11/SpringCloud-1-1.jpg)
+![微信公众号：bugstack虫洞栈 & Eureka 官网的架构图](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/SpringCloud-1-1.jpg)
 
 ## 环境准备
 1、jdk 1.8
@@ -145,7 +145,7 @@ eureka:
 1、配置host；127.0.0.1 node1 node2 node3
 2、分别启动node1、node2、node3
 3、访问；http://localhost:8081/
-![微信公众号：bugstack虫洞栈 & Eureka集群](https://bugstack.cn/wp-content/uploads/2019/11/SpringCloud-1-2.jpg)
+![微信公众号：bugstack虫洞栈 & Eureka集群](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/SpringCloud-1-2.jpg)
 
 ------------
 

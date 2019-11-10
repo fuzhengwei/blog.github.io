@@ -39,7 +39,7 @@ private void bing(int port) {
 
 ** 类继承结构图：**
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-4-2-2.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-4-2-2.png)
 
 ## ServerBootstrap启动流程源码分析
 
@@ -54,7 +54,7 @@ private void bing(int port) {
 - bind()及sync()绑定本地地址并同步返回绑定结果；
 
 2、 bing()调用流程
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-4-2-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-4-2-1.png)
 
 - 调用ServerBootstrap.bind()：应用调用ServerBootstrap的bind()操作；
 - 调用AbstractBootstrap.bind()：调用doBind()对进行bind操作；

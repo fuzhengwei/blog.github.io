@@ -154,7 +154,7 @@ Process finished with exit code -1
 hi 微信公众号：bugstack虫洞栈 | 欢迎关注并获取专题文章和源码
 ```
 
-![微信公众号：bugstack虫洞栈](https://bugstack.cn/wp-content/uploads/2019/09/netty-2-11-1.png)
+![微信公众号：bugstack虫洞栈](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-2-11-1.png)
 
 ------------
 

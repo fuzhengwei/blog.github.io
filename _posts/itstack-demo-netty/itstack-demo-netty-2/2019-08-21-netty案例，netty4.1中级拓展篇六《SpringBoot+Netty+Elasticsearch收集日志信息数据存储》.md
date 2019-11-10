@@ -399,7 +399,7 @@ Waiting forever...
 Started connect web server on http://localhost:9100
 ```
 
-![Elasticsearch-head](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-06-1.png)
+![Elasticsearch-head](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-06-1.png)
 
 >启动StringBoot *Netty服务会随着启动{Application.main}
 
@@ -447,7 +447,7 @@ Started connect web server on http://localhost:9100
 2019-08-10 14:14:55.043  INFO 5976 --- [           main] o.itstack.demo.netty.server.NettyServer  : itstack-demo-netty server start done. {关注公众号：bugstack虫洞栈，获取源码}
 ```
 
-![启动StringBoot](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-06-2.png)
+![启动StringBoot](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-06-2.png)
 
 >启动Netty客户端发送数据 ApiTest.main
 
@@ -464,6 +464,6 @@ itstack-demo-netty client start done. {关注公众号：bugstack虫洞栈，获
 
 >执行结果 *数据已经写入到Elasticsearch
 
-![启动StringBoot](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-06-3.png)
+![启动StringBoot](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-06-3.png)
 
 ------------

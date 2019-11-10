@@ -10,7 +10,7 @@ tag: [spring,itstack-demo-springcloud]
 为了更好的实现领域驱动设计的落地，不仅要在设计思路上做到领域职责清晰、系统边界明确，还需要使用到Spring Boot、Spring Cloud框架服务体系来更好的构建微服务。后续部分章节将针对Spring Cloud的使用以及有益于构建微服务的知识技能做系列案例整理，以最终完成架构设计专题案例。网上不免有很多优秀的文章，但为了系统的学习更需要事必躬亲，亲力亲为。
 
 ## 内容概述
-![https://spring.io](https://bugstack.cn/wp-content/uploads/2019/10/springboot-1-01.png)
+![https://spring.io](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/springboot-1-01.png)
 
 >Built directly on Spring Boot's innovative approach to enterprise Java, Spring Cloud simplifies distributed, microservice-style architecture by implementing proven patterns to bring resilience, reliability, and coordination to your microservices.
 
@@ -31,7 +31,7 @@ Spring Cloud 是一系列框架的有序集合。它利用 Spring Boot 的开发
 - 开闭原则
 
 关于微服务的一个形象表达：
-![微服务框架](https://bugstack.cn/wp-content/uploads/2019/10/springboot-1-02.png)
+![微服务框架](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/springboot-1-02.png)
 
 X轴：运行多个负载均衡器之后的运行实例
 Y轴：将应用进一步分解为微服务（分库）
@@ -56,7 +56,7 @@ Z轴：大数据量时，将服务分区（分表）
 
 ## Spring Cloud 技术总览
 
-![](https://bugstack.cn/wp-content/uploads/2019/10/springboot-1-03.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/springboot-1-03.png)
 
 - 服务治理：这是 Spring Cloud 的核心。目前 Spring Cloud 主要通过整合 Netflix 的相关产品来实现这方面的功能（Spring Cloud Netflix），包括用于服务注册和发现的 Eureka，调用断路器 Hystrix，调用端负载均衡 Ribbon，Rest 客户端 Feign，智能服务路由 Zuul，用于监控数据收集和展示的 Spectator、Servo、Atlas，用于配置读取的 Archaius 和提供 Controller 层 Reactive 封装的 RxJava。除此之外，针对于服务的注册和发现，除了 Eureka，Spring Cloud 也整合了 Consul 和 Zookeeper 作为备选，但是因为这两个方案在 CAP 理论上都遵循 CP 而不是 AP（下一篇会详细介绍这点），所以官方并没有推荐使用。
 
@@ -82,7 +82,7 @@ Eureka 是 Netflix 开源的一款提供服务注册和发现的产品，它提�
 当熔断发生的时候需要迅速的响应来解决问题，避免故障进一步扩散，那么对熔断的监控就变得非常重要。熔断的监控现在有两款工具：Hystrix-dashboard 和 Turbine
 
 Hystrix-dashboard 是一款针对 Hystrix 进行实时监控的工具，通过 Hystrix Dashboard 我们可以直观地看到各 Hystrix Command 的请求响应时间，请求成功率等数据。但是只使用 Hystrix Dashboard 的话，你只能看到单个应用内的服务信息，这明显不够。我们需要一个工具能让我们汇总系统内多个服务的数据并显示到 Hystrix Dashboard 上，这个工具就是 Turbine.
-![Turbine](https://bugstack.cn/wp-content/uploads/2019/10/springboot-1-05.png)
+![Turbine](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/springboot-1-05.png)
 
 **Spring Cloud Config**
 随着微服务不断的增多，每个微服务都有自己对应的配置文件。在研发过程中有测试环境、UAT 环境、生产环境，因此每个微服务又对应至少三个不同环境的配置文件。这么多的配置文件，如果需要修改某个公共服务的配置信息，如：缓存、数据库等，难免会产生混乱，这个时候就需要引入 Spring Cloud 另外一个组件：Spring Cloud Config。
@@ -111,7 +111,7 @@ Spring Cloud 体系中支持 API Gateway 落地的技术就是 Zuul。Spring Clo
 
 **链路跟踪**
 随着服务的越来越多，对调用链的分析会越来越复杂，如服务之间的调用关系、某个请求对应的调用链、调用之间消费的时间等，对这些信息进行监控就成为一个问题。在实际的使用中我们需要监控服务和服务之间通讯的各项指标，这些数据将是我们改进系统架构的主要依据。因此分布式的链路跟踪就变的非常重要，Spring Cloud 也给出了具体的解决方案：Spring Cloud Sleuth 和 Zipkin
-![链路跟踪，来自谷歌文档](https://bugstack.cn/wp-content/uploads/2019/08/17387004-c9295b1ffd21eb27.png)
+![链路跟踪，来自谷歌文档](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/17387004-c9295b1ffd21eb27.png)
 
 Spring Cloud Sleuth 为服务之间调用提供链路追踪。通过 Sleuth 可以很清楚的了解到一个服务请求经过了哪些服务，每个服务处理花费了多长时间。从而让我们可以很方便的理清各微服务间的调用关系。
 
@@ -121,7 +121,7 @@ Zipkin 是 Twitter 的一个开源项目，允许开发者收集 Twitter 各个�
 
 ## 综上总结
 Spring Cloud 各个组件如何来配套使用：
-![](https://bugstack.cn/wp-content/uploads/2019/10/springboot-1-07.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/springboot-1-07.png)
 
 从上图可以看出 Spring Cloud 各个组件相互配合，合作支持了一套完整的微服务架构。
 

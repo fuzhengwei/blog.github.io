@@ -192,7 +192,7 @@ Process finished with exit code -1
 
 >Postman访问；http://localhost:7397 并设置参数
 
-![](https://bugstack.cn/wp-content/uploads/2019/09/netty-1-12-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-1-12-1.png)
 
 ------------
 

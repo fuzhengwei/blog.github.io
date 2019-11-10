@@ -478,12 +478,12 @@ eureka:
 
 ## 测试验证
 1、启动itstack-demo-springcloud-hystrix-dashboard，访问；http://localhost:8989/hystrix
-![微信公众号：bugstack虫洞栈 & hystrix-dashboard 监控入口](https://bugstack.cn/wp-content/uploads/2019/11/springcloud-4-3.png)
+![微信公众号：bugstack虫洞栈 & hystrix-dashboard 监控入口](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/springcloud-4-3.png)
 2、测试监控
 2.1、分别启动itstack-demo-springcloud-eureka-client、itstack-demo-springcloud-hystrix-feign与itstack-demo-springcloud-hystrix-ribbon
 2.2、http://localhost:8989/hystrix入口处填写；http://localhost:9001/actuator/hystrix.stream ｛也就是fegin调用接口｝
 2.2、刷新调用接口；http://localhost:9001/api/queryUserInfo?userId=111，观察监控页面｛过程中讲服务提供方关闭｝
-![微信公众号：bugstack虫洞栈 & 监控面板](https://bugstack.cn/wp-content/uploads/2019/11/springcloud-4-4.png)
+![微信公众号：bugstack虫洞栈 & 监控面板](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/springcloud-4-4.png)
 3、也可以直接访问；http://localhost:9001/actuator/hystrix.stream，会收到ping监控数据
 
 ## 综上总结

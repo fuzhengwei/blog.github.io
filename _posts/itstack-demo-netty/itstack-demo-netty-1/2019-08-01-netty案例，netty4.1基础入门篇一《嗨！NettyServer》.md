@@ -81,7 +81,7 @@ public class NettyServer {
 ## 运行演示
 1、启动server服务端
 2、连接server服务端
-![](https://itstack.gitee.io/images_bed/img/netty4.1/netty-01-2.jpg)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-01-2.jpg)
 
 ------------
 

@@ -8,7 +8,7 @@ tag: [spring,itstack-demo-springcloud]
 
 ## 前言介绍
 本章节提供一个基于Eurka的服务注册中心，两个服务提供者之后分别使用Ribbon、Fegin方式进行调用，测试负载均衡。
-![微信公众号：bugstack虫洞栈 & 服务注册与调用](https://bugstack.cn/wp-content/uploads/2019/11/springcloud-2-1.png)
+![微信公众号：bugstack虫洞栈 & 服务注册与调用](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/springcloud-2-1.png)
 
 服务提供者Service Provider 本质上是一个 Eureka Client，它在服务启动时，会调用服务注册方法，向 Eureka Server注册接口服务信息，包括地址、端口、服务名、入参、返回值等。当Eureka Server收到注册信息后，会维护在自己的注册列表，如下；
 
@@ -366,7 +366,7 @@ eureka:
 3、启动itstack-demo-springcloud-feign
 4、启动itstack-demo-springcloud-ribbon
 5、访问服务注册中心http://localhost:7397/
-![微信公众号：bugstack虫洞栈 & 服务注册中心](https://bugstack.cn/wp-content/uploads/2019/11/springcloud-2-2.png)
+![微信公众号：bugstack虫洞栈 & 服务注册中心](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/springcloud-2-2.png)
 6、访问服务提供方；http://localhost:8001/api/queryUserInfo?userId=111 | 说明服务正常
 
 ```java

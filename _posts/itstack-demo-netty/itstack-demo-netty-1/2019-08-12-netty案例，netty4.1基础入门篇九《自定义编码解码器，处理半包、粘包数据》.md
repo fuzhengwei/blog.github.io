@@ -228,7 +228,7 @@ Process finished with exit code -1
 
 >启动模拟器NetAssist，用TcpClient链接服务端
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-1-09-2-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-1-09-2-1.png)
 
 >分别发送三组数据；
 

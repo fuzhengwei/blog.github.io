@@ -142,11 +142,11 @@ public class NettyClient {
 ## 测试结果
 >启动模拟器NetAssist 设置TCP Server
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-1-08-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-1-08-1.png)
 
 >启动客户端NettyClient
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-1-08-2.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-1-08-2.png)
 
 >执行结果
 

@@ -358,11 +358,11 @@ E:\itstack\GIT\itstack.org\itstack-demo-netty\itstack-demo-netty-2-02\protoc-3.5
 ```
 >启动NettyServer
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-02-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-02-1.png)
 
 >启动NettyClient
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-02-2.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-02-2.png)
 
 >服务端执行结果
 

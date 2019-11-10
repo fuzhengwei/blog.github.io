@@ -299,19 +299,19 @@ public class ApiTest {
 ## 测试结果
 >启动SpringBoot *NettyApplication.main >run
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-02-1-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-02-1-1.png)
 
 >启动ApiTest
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-02-1-2.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-02-1-2.png)
 
 >Web访问 *http://localhost:8080/nettyserver/localAddress
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-02-1-3.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-02-1-3.png)
 
 >Web访问 *http://localhost:8080/nettyserver/isOpen
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-02-1-4.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-02-1-4.png)
 
 >服务端执行结果
 

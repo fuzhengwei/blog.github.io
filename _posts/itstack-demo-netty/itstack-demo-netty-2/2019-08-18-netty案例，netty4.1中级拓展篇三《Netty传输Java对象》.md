@@ -467,11 +467,11 @@ public class SerializationUtil {
 ## 测试结果
 >启动NettyServer
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-03-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-03-1.png)
 
 >启动NettyClient
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-03-2.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-03-2.png)
 
 >服务端执行结果
 

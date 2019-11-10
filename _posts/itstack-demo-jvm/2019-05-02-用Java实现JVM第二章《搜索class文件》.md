@@ -508,4 +508,4 @@ ca fe ba be 00 00 00 34 00 22 0a 00 06 00 14 09
 
 **结果验证**
 Notepad++ 打开HelloWorld.class，在'插件'工具中选HEX-Editor设置为View in Hex 默认为8-bit
-![](https://bugstack.cn/wp-content/uploads/2019/08/11.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/11.png)

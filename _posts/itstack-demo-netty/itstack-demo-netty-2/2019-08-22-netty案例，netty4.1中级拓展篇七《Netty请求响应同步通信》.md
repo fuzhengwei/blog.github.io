@@ -273,6 +273,6 @@ itstack-demo-netty server start done. {关注公众号：bugstack虫洞栈，获
 Process finished with exit code -1
 
 ```
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-07-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-07-1.png)
 
 ------------

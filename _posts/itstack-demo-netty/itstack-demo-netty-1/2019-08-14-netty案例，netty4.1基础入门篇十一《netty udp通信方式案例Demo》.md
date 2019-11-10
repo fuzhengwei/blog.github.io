@@ -233,7 +233,7 @@ Process finished with exit code -1
 
 >在启动一个网络调试助手，NetAssist | 这样方便我们验证
 
-![](https://bugstack.cn/wp-content/uploads/2019/09/netty-1-11-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/09/netty-1-11-1.png)
 
 ------------
 

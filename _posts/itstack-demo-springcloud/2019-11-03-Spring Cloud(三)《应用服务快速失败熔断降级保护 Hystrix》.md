@@ -12,7 +12,7 @@ tag: [spring,itstack-demo-springcloud]
 **Hystrix** 是一种熔断降级的中间件，由 Spring Cloud 集成整合后在Ribbon与Fegin中提供使用。
 >Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 
-![微信公众号：bugstack虫洞栈 & Hystrix工作原理(官网)](https://bugstack.cn/wp-content/uploads/2019/11/SpringCloud-3-1.png)
+![微信公众号：bugstack虫洞栈 & Hystrix工作原理(官网)](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/SpringCloud-3-1.png)
 
 ## 案例说明
 本案例在itstack-demo-springcloud-02的基础上添加Hystrix服务，当我们的itstack-demo-springcloud-eureka-client尚未启动或主动停止后，我们在调用接口服务时候会进行熔断保护。

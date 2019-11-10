@@ -404,14 +404,14 @@ spring:
 
 >启动SpringBoot *Netty会随着启动
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-05-0.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-05-0.png)
 
 
 >打开网页websocket客户端；http://localhost:8080/index
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-05-1.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-05-1.png)
 
-![](https://bugstack.cn/wp-content/uploads/2019/08/netty-2-05-6.png)
+![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/netty-2-05-6.png)
 
 >服务端执行结果
 

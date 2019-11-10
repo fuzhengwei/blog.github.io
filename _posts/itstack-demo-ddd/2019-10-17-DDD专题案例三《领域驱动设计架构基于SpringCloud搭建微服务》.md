@@ -17,7 +17,7 @@ tag: [ddd,itstack-demo-ddd]
 那么实际开发大泥球架构时，不只是会遇到上面的问题，还可能会遇到工期很赶加个人也不提升效率，反复交接代码扶不过三代等等，因此我们将服务拆分为独立单体具备此核心域完整功能的系统是非常必要的。
 
 如图，是微服务数据库使用的一种思想，我们希望路由层从最开始就被执行，用户分群动态扩展
-![微信公众号：bugstack虫洞栈 & 微服务数据库路由](https://bugstack.cn/wp-content/uploads/2019/10/ddd-03-1.png)
+![微信公众号：bugstack虫洞栈 & 微服务数据库路由](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/ddd-03-1.png)
 
 ## 案例目标
 本案例通过使用SpringCloud将我们的服务架构扩展为通过路由调用的微服务
@@ -315,11 +315,11 @@ zuul:
 按照顺序启动；itstack-demo-ddd-eureka-server、itstack-demo-ddd-case｛可以模拟启动多个｝、itstack-demo-ddd-feign、itstack-demo-ddd-zuul
 
 >访问；http://localhost:8989/ | 服务中心
-![微信公众号：bugstack虫洞栈 & 服务中心](https://bugstack.cn/wp-content/uploads/2019/10/ddd-03-2.png)
+![微信公众号：bugstack虫洞栈 & 服务中心](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/ddd-03-2.png)
 
 >访问：http://localhost:9191/route-a/api/queryTreeSummaryInfo?treeId=10001 | 通过网关路由调用DDD服务接口
 
-![微信公众号：bugstack虫洞栈 & 调用网关接口测试](https://bugstack.cn/wp-content/uploads/2019/10/ddd-03-3.png)
+![微信公众号：bugstack虫洞栈 & 调用网关接口测试](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/ddd-03-3.png)
 
 
 ## 综上总结
