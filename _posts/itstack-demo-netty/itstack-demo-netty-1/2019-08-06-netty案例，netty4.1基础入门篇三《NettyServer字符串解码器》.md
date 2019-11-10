@@ -157,3 +157,9 @@ itstack-demo-netty server start done. {关注公众号：bugstack虫洞栈，获
 Process finished with exit code -1
 ```
 ------------
+
+上一篇：[netty案例，netty4.1基础入门篇二《NettyServer接收数据》](/itstack-demo-netty-1/2019/08/05/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E4%BA%8C-NettyServer%E6%8E%A5%E6%94%B6%E6%95%B0%E6%8D%AE.html)
+
+下一篇：[netty案例，netty4.1基础入门篇四《NettyServer收发数据》](/itstack-demo-netty-1/2019/08/07/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E5%9B%9B-NettyServer%E6%94%B6%E5%8F%91%E6%95%B0%E6%8D%AE.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！

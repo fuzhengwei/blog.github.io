@@ -195,3 +195,7 @@ Process finished with exit code -1
 ![](https://bugstack.cn/wp-content/uploads/2019/09/netty-1-12-1.png)
 
 ------------
+
+上一篇：[netty案例，netty4.1基础入门篇十一《netty udp通信方式案例Demo》](/itstack-demo-netty-1/2019/08/14/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E5%8D%81%E4%B8%80-netty-udp%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F%E6%A1%88%E4%BE%8BDemo.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！

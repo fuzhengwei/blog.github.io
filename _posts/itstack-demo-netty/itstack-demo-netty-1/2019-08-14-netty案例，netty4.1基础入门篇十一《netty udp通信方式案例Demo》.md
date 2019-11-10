@@ -236,3 +236,9 @@ Process finished with exit code -1
 ![](https://bugstack.cn/wp-content/uploads/2019/09/netty-1-11-1.png)
 
 ------------
+
+上一篇：[netty案例，netty4.1基础入门篇十《关于ChannelOutboundHandlerAdapter简单使用》](/itstack-demo-netty-1/2019/08/13/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E5%8D%81-%E5%85%B3%E4%BA%8EChannelOutboundHandlerAdapter%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html)
+
+下一篇：[netty案例，netty4.1基础入门篇十二《简单实现一个基于Netty搭建的Http服务》](/itstack-demo-netty-1/2019/08/15/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E5%8D%81%E4%BA%8C-%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8ENetty%E6%90%AD%E5%BB%BA%E7%9A%84Http%E6%9C%8D%E5%8A%A1.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！
