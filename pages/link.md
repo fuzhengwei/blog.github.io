@@ -16,9 +16,6 @@ permalink: /link
 
 ## 推荐网站
 
-- [小白学堂](http://www.itmind.net/) - 学的不仅是技术，更是前程！
-- [抖音视频下载](https://free-tiktok.com/) - 抖音、Youtube、instagram视频去水印下载
-- [程序员导航网站](http://tooool.org/) - 程序员的导航网站 
 - [Spring Boot中文导航](http://springboot.fun/) - Spring Boot的资源导航网站    
 - [Spring Cloud中文导航](http://springcloud.fun/) - Spring Cloud的资源导航网站    
 - [MD工具](https://mdnice.com/) - markdown转html在线工具  
@@ -31,18 +28,18 @@ permalink: /link
 
 ## 个人链接
 
-- [itwanger](http://www.itwanger.com/) - 个人独立博客
-- [github](https://github.com/qinggee) -  我分享代码的地方
-- [知乎](https://www.zhihu.com/people/cmower) - 个人知乎地址，回答一些问题
-- [博客园](https://www.cnblogs.com/qing-gee/) - 博客园优秀博客
-- [CSDN](http://blog.csdn.net/qing_gee)  - 博客专家
-- [掘金](https://juejin.im/user/5bd7fb9ce51d45219836421e) - 掘金优秀博客
+- [bugstack虫洞栈](https://bugstack.com) - 个人独立博客
+- [Github](https://github.com/fuzhengwei) -  我分享代码的地方
+- [知乎](https://www.zhihu.com/people/fuzhengwei) - 个人知乎地址，回答一些问题
+- [CSDN](https://bugstack.blog.csdn.net)  - 博客专家
+- [掘金](https://juejin.im/user/5d1dd872f265da1bb31c569b) - 掘金优秀博客
+- [简书](https://www.jianshu.com/u/6277de401399) - 优质创作社区
 
 ## 其它  
 
 *需要展示你的网站，就在本页下面留言吧，也算是一种宣传方式。格式要求如下：*
 
-- 网站名称：itwanger
-- 网站链接：http://www.itwanger.com  
-- 网站描述：沉默王二，一个不止写代码的程序员，还写有趣有益的文字，给不喜欢严肃的你
+- 网站名称：bugstack虫洞栈
+- 网站链接：https://bugstack虫洞栈  
+- 网站描述：沉淀、分享、成长，让自己和他人都能有所收获
 
