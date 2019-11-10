@@ -1,8 +1,6 @@
 ---
 layout: post
-category: 
-- netty
-- itstack-demo-netty-2
+category: itstack-demo-netty-2 
 title: netty案例，netty4.1中级拓展篇一《Netty与SpringBoot整合》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-2]
