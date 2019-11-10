@@ -71,7 +71,7 @@ navs:
 
   -
     href: /
-    label: Home
+    label: 首页
   -
     href: /itstack-demo-netty/itstack-demo-netty.html
     label: Netty4.x专题
@@ -95,7 +95,7 @@ navs:
         subLabel: 源码分析篇
   -
     href: /itstack-demo-jvm/itstack-demo-jvm.html
-    label: Jvm专题
+    label: JVM专题
     target: _self
 
   -
@@ -105,7 +105,7 @@ navs:
 
   -
     href: /archives.html
-    label: Archives
+    label: 归档
     target: _self
 
 # labels. my blog key words
