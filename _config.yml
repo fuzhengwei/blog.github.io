@@ -6,10 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈 v1.1.5 | 沉淀、分享、成长，让自己和他人都能有所收获
+title:  bugstack虫洞栈 v1.1.6 | 沉淀、分享、成长，让自己和他人都能有所收获
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: bugstack虫洞栈
 email: 184172133@qq.com
+location: Beijing, China
 description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
 keywords: Java,Java教程,程序人生,程序员,前端,Web,全栈
 encoding: "utf-8"
@@ -52,7 +53,7 @@ syntax_highlighter_opts:
 paginate: 12
 paginate_path: 'page:num'
 
-# Navigation. top menu list
+# Navigation. top menu list 导航 顶部菜单列表
 menus:
 
   -
@@ -65,6 +66,10 @@ menus:
     label: 友链
     target: _self
 
+  -
+    href: /about.html
+    label: 关于
+    target: _self
 
 
 # Navigation. main menu list
@@ -95,31 +100,14 @@ navs:
         subHref: /itstack-demo-netty/itstack-demo-netty-4.html
         subLabel: 源码分析篇
   -
-    href: /java.html
-    label: Java
+    href: /itstack-demo-jvm/itstack-demo-jvm.html
+    label: 用Java实现JVM
     target: _self
-
-  -
-    href: /web.html
-    label: 前端
-    target: _self
-
-  -
-    href: /life.html
-    label: 程序人生
-    target: _self
-
 
   -
     href: /archives.html
     label: Archives
     target: _self
-
-  -
-    href: /about.html
-    label: About
-    target: _self
-
 
 # labels. my blog key words
 labels:
@@ -142,6 +130,11 @@ labels:
 
 # selected articles 精选文章
 classes:
+
+  -
+    href: /itstack-demo-netty/itstack-demo-netty.html
+    name: Netty4.x专题案例
+    describe: 跟着案例学Netty，Netty4.x案例从简单入门到应用实战，全篇35节优秀案例+实战源码[基础篇(13节)、中级篇(13节)、高级篇(3章)、源码分析篇(6节)]
 
   -
     href: /life.html
