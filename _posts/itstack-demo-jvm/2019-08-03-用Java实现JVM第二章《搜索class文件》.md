@@ -27,21 +27,20 @@ itstack-demo-jvm-02
     └── main
     │    └── java
     │        └── org.itstack.demo.jvm
-	│			  ├── classpath
-	│			  │   ├── impl
-	│             │   │   ├── CompositeEntry.java
-	│             │   │   ├── DirEntry.java 
-	│             │   │   ├── WildcardEntry.java 
-	│             │   │   └── ZipEntry.java    
-	│			  │   ├── Classpath.java
-	│			  │   └── Entry.java 	
-    │		      ├── Cmd.java
-    │ 		      └── Main.java
+    │             ├── classpath
+    │             │   ├── impl
+    │             │   │   ├── CompositeEntry.java
+    │             │   │   ├── DirEntry.java 
+    │             │   │   ├── WildcardEntry.java 
+    │             │   │   └── ZipEntry.java    
+    │             │   ├── Classpath.java
+    │             │   └── Entry.java    
+    │             ├── Cmd.java
+    │             └── Main.java
     └── test
-		 └── java
-			 └── org.itstack.demo.test
-				 └── HelloWorld.java
-
+         └── java
+             └── org.itstack.demo.test
+                 └── HelloWorld.java
 ```
 
 >pom.xml

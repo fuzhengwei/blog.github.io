@@ -101,7 +101,7 @@ navs:
         subLabel: 源码分析篇
   -
     href: /itstack-demo-jvm/itstack-demo-jvm.html
-    label: 用Java实现JVM
+    label: Jvm实现
     target: _self
 
   -
