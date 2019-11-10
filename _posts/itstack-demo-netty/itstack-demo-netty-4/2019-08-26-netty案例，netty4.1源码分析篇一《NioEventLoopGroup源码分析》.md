@@ -1,6 +1,8 @@
 ---
 layout: post
-category: itstack-demo-netty-4
+category: 
+- netty
+- itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-4]
