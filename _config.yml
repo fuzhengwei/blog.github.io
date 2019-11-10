@@ -114,7 +114,7 @@ navs:
         subLabel: 用Java实现JVM
       -
         subHref: /itstack-demo-agent/itstack-demo-agent.html
-        subLabel: 全链路监控
+        subLabel: 调用链路监控
       -
         subHref: /itstack-demo-ddd/itstack-demo-ddd.html
         subLabel: 领域驱动设计
