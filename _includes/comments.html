@@ -82,9 +82,10 @@
     {% when 'gitalk' %}
         <div id="gitalk-container"></div>
         <script src="/assets/js/gitalk.min.js"></script>
+        <script src="/assets/js/md5.js"></script>
         <script>
         var gitalk = new Gitalk({
-            id: decodeURI('{{ page.url }}'),
+            id: md5(decodeURI('{{ page.url }}')),
             clientID: '{{ site.gitalk.clientID }}',
             clientSecret: '{{ site.gitalk.clientSecret }}',
             repo: '{{ site.gitalk.repo }}',
