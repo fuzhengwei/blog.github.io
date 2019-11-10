@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈 v1.2.5 | 沉淀、分享、成长，让自己和他人都能有所收获
+title:  bugstack虫洞栈 v1.2.6 | 沉淀、分享、成长，让自己和他人都能有所收获
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: bugstack虫洞栈
 email: 184172133@qq.com
@@ -77,6 +77,15 @@ navs:
   -
     href: /
     label: 首页
+
+  - href: /
+    label: 编程基础
+    target: _self
+    subnav:
+
+      - subHref: /itstack-demo-springcloud/itstack-demo-springcloud.html
+        subLabel: Spring Cloud
+
   -
     href: /itstack-demo-netty/itstack-demo-netty.html
     label: Netty4.x专题
@@ -98,29 +107,26 @@ navs:
       -
         subHref: /itstack-demo-netty/itstack-demo-netty-4.html
         subLabel: 源码分析篇
-  -
-    href: /itstack-demo-jvm/itstack-demo-jvm.html
-    label: JVM专题
-    target: _self
 
   -
-    href: /itstack-demo-agent/itstack-demo-agent.html
-    label: 全链路监控
-    target: _self
-    
-  -
     href: /
-    label: 架构设计专题
+    label: 架构师专题
     target: _self
     subnav:
 
       -
-        subHref: /itstack-demo-springcloud/itstack-demo-springcloud.html
-        subLabel: Spring Cloud
+        href: /itstack-demo-jvm/itstack-demo-jvm.html
+        label: 用Java实现JVM
+        target: _self
+
+      -
+        href: /itstack-demo-agent/itstack-demo-agent.html
+        label: Agent全链路监控
+        target: _self
 
       -
         subHref: /itstack-demo-ddd/itstack-demo-ddd.html
-        subLabel: DDD落地
+        subLabel: 领域驱动设计
 
   -
     href: /archives.html
