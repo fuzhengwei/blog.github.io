@@ -112,16 +112,6 @@ navs:
 labels:
 
   -
-    href: /
-    label: Beijing, China
-    target: _blank
-
-  -
-    href: /
-    label: @fuzhengwei
-    target: _blank
-
-  -
     href: /open-source.html
     label: Git仓库
     target: _blank
