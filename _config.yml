@@ -82,7 +82,8 @@ navs:
     label: 编程基础
     target: _self
     subnav:
-      - subHref: /itstack-demo-springcloud/itstack-demo-springcloud.html
+      -
+        subHref: /itstack-demo-springcloud/itstack-demo-springcloud.html
         subLabel: Spring Cloud
 
   -
@@ -109,10 +110,10 @@ navs:
     target: _self
     subnav:
       -
-        href: /itstack-demo-jvm/itstack-demo-jvm.html
+        subHref: /itstack-demo-jvm/itstack-demo-jvm.html
         subLabel: 用Java实现JVM
       -
-        href: /itstack-demo-agent/itstack-demo-agent.html
+        subHref: /itstack-demo-agent/itstack-demo-agent.html
         subLabel: 全链路监控
       -
         subHref: /itstack-demo-ddd/itstack-demo-ddd.html
