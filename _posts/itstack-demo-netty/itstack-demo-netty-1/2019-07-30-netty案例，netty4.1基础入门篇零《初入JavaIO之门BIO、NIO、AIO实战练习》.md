@@ -8,7 +8,7 @@ tag: [netty,itstack-demo-netty-1]
 
 ## 前言介绍
 在Java中，提供了一些关于使用IO的API，可以供开发者来读写外部数据和文件，我们称这些API为Java IO。IO是Java中比较重要知识点，且比较难学习的知识点。并且随着Java的发展为提供更好的数据传输性能，目前有三种IO共存；分别是BIO、NIO和AIO。
-![微信公众号：bugstack虫洞栈 | bio、nio、aio](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/netty-1-01-1-ios.png)
+![微信公众号：bugstack虫洞栈 | bio、nio、aio](/assets/images/pic-content/2019/10/netty-1-01-1-ios.png)
 
 >Java BIO[Blocking I/O] | 同步阻塞I/O模式
 
@@ -320,7 +320,7 @@ itstack-demo-netty aio server start done. {关注公众号：bugstack虫洞栈 |
 Process finished with exit code -1
 ```
 
-![微信公众号：bugstack虫洞栈 | AIO案例测试](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/netty-1-00-2.png)
+![微信公众号：bugstack虫洞栈 | AIO案例测试](/assets/images/pic-content/2019/10/netty-1-00-2.png)
 
 ---------
 
@@ -506,7 +506,7 @@ itstack-demo-netty bio server start done. {关注公众号：bugstack虫洞栈 |
 Process finished with exit code -1
 ```
 
-![微信公众号：bugstack虫洞栈 | BIO案例测试](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/netty-1-00-3.png)
+![微信公众号：bugstack虫洞栈 | BIO案例测试](/assets/images/pic-content/2019/10/netty-1-00-3.png)
 
 
 ### NIO案例代码
@@ -749,7 +749,7 @@ itstack-demo-netty nio server start done. {关注公众号：bugstack虫洞栈 |
 Process finished with exit code -1
 ```
 
-![微信公众号：bugstack虫洞栈 | NIO案例测试](https://fuzhengwei.github.io/assets/images/pic-content/2019/10/netty-1-00-4.png)
+![微信公众号：bugstack虫洞栈 | NIO案例测试](/assets/images/pic-content/2019/10/netty-1-00-4.png)
 
 ------------
 
