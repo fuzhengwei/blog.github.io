@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GitChat 专栏推荐课程
+title: GitChat 专栏推荐
 titlebar: gitchat
 subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 程序员的分享天地
 menu: gitchat
