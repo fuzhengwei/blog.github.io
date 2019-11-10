@@ -12,7 +12,6 @@ permalink: /link
 - [纯洁的微笑](http://www.ityouknow.net/blog-neo) - 一个有故事的程序员
 - [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
 - [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
-- [程序新视界](http://www.choupangxia.com) - 一个软技能、硬实力同时提升的平台。
 
 ## 推荐网站
 
@@ -40,6 +39,6 @@ permalink: /link
 *需要展示你的网站，就在本页下面留言吧，也算是一种宣传方式。格式要求如下：*
 
 - 网站名称：bugstack虫洞栈
-- 网站链接：https://bugstack虫洞栈  
+- 网站链接：https://bugstack.cn
 - 网站描述：沉淀、分享、成长，让自己和他人都能有所收获
 
