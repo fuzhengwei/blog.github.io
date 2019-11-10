@@ -134,10 +134,6 @@ labels:
     href: /gitchat.html
     label: GitChat
     target: _blank
-  -
-    href: /
-    label: @fuzhengwei
-    target: _self
 
 # selected articles 精选文章
 classes:
