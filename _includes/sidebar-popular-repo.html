@@ -50,7 +50,7 @@
 {% endfor %}
 
 <br/>
-<h3 class="sidebar-title">开源软件</h3>
+<h3 class="sidebar-title">源码仓库</h3>
 {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse | where: "fork", "false" %}
 {% for repo in sorted_repos | limit: site.side_bar_repo_limit %}
 <div class="card text-center">
