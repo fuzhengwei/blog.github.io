@@ -121,11 +121,6 @@ labels:
     label: GitChat
     target: _blank
 
-  -
-    href: /geektime.html
-    label: 极客
-    target: _blank
-
 
 # selected articles 精选文章
 classes:
