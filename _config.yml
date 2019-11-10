@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈 v1.1.9 | 沉淀、分享、成长，让自己和他人都能有所收获
+title:  bugstack虫洞栈 v1.1.10 | 沉淀、分享、成长，让自己和他人都能有所收获
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: bugstack虫洞栈
 email: 184172133@qq.com
@@ -100,7 +100,7 @@ navs:
         subLabel: 源码分析篇
   -
     href: /itstack-demo-jvm/itstack-demo-jvm.html
-    label: Jvm实现
+    label: Jvm专题
     target: _self
 
   -
@@ -143,18 +143,7 @@ classes:
   -
     href: /itstack-demo-netty/itstack-demo-netty.html
     name: Netty4.x专题案例
-    describe: 跟着案例学Netty，Netty4.x案例从简单入门到应用实战，全篇35节优秀案例+实战源码[基础篇(13节)、中级篇(13节)、高级篇(3章)、源码分析篇(6节)]
-
-  -
-    href: /life.html
-    name: 程序人生
-    describe: 程序员的人生不止有代码
-
-
-  -
-    href: /java.html
-    name: Java 系列文章
-    describe: Java 之根基，Java 程序员必学
+    describe: 跟着案例学Netty，Netty4.x案例从简单入门到应用实战，全篇35节优秀案例+实战源码。
 
 
 # ---------------- #
