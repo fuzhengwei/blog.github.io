@@ -130,12 +130,14 @@ labels:
     href: /open-source.html
     label: Git仓库
     target: _blank
-
   -
     href: /gitchat.html
     label: GitChat
     target: _blank
-
+  -
+    href: /
+    label: @fuzhengwei
+    target: _self
 
 # selected articles 精选文章
 classes:
