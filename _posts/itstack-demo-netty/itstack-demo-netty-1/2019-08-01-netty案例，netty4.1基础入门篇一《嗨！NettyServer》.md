@@ -82,8 +82,3 @@ public class NettyServer {
 1、启动server服务端
 2、连接server服务端
 ![](https://itstack.gitee.io/images_bed/img/netty4.1/netty-01-2.jpg)
-
-------------
-## 微信公众号：bugstack虫洞栈，欢迎您的关注&获取源码！
-
-![微信公众号：bugstack虫洞栈，欢迎您的关注&获取源码！](https://bugstack.cn/wp-content/uploads/2019/08/qrcode清晰.png)

@@ -407,8 +407,4 @@ itstack-demo-netty client start done. {关注公众号：bugstack虫洞栈，获
 
 Process finished with exit code -1
 ```
-------------
-## 微信公众号：bugstack虫洞栈，欢迎您的关注&获取源码！
-
-![微信公众号：bugstack虫洞栈，欢迎您的关注&获取源码！](https://bugstack.cn/wp-content/uploads/2019/08/qrcode清晰.png)
 

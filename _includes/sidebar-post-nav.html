@@ -10,14 +10,14 @@
 <script type="text/javascript">
 
     $(document).ready(function(){
-        $( "article h3" ).each(function( index ) {
+        $( "article h2" ).each(function( index ) {
             $(".post-directory dl").append("<dt><a class=\"jumper\" hre=#" +
                     $(this).attr("id")
                     + ">"
                     + $(this).text()
                     + "</a></dt>");
 
-            var children = $(this).nextUntil("h3", "h4")
+            var children = $(this).nextUntil("h2", "h3")
 
             children.each(function( index ) {
                 $(".post-directory dl").append("<dd><a class=\"jumper\" hre=#" +

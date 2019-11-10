@@ -750,8 +750,3 @@ Process finished with exit code -1
 ```
 
 ![微信公众号：bugstack虫洞栈 | NIO案例测试](https://bugstack.cn/wp-content/uploads/2019/10/netty-1-00-4.png)
-
-
-------------
-
-![微信公众号：bugstack虫洞栈，欢迎关注&获取源码](https://bugstack.cn/wp-content/uploads/2019/09/名片2.png)
