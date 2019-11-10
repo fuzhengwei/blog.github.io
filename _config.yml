@@ -7,7 +7,7 @@
 
 # Site settings
 title:  bugstack虫洞栈
-subtitle: 公众号「bugstack虫洞栈」，沉淀、分享、成长
+subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: bugstack虫洞栈
 email: 184172133@qq.com
 description: 沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例等。
@@ -106,12 +106,12 @@ labels:
 
   -
     href: /open-source.html
-    label: Code  
+    label: Git仓库
     target: _blank
 
   -
     href: /gitchat.html
-    label: Chat
+    label: GitChat
     target: _blank
 
   -
@@ -120,7 +120,7 @@ labels:
     target: _blank
 
 
-# selected articles
+# selected articles 精选文章
 classes:
 
   -
