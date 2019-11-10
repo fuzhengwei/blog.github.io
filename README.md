@@ -6,4 +6,4 @@
 
 ## 微信扫码关注我的微信公众号
 
-![](/assets/images/qrcode.pnd)
+![](/assets/images/qrcode.png)
