@@ -57,12 +57,12 @@ menus:
 
   -
     href: /open-source.html
-    label: 友链
+    label: Git
     target: _self
 
   -
     href: /link.html
-    label: Git
+    label: 友链
     target: _self
 
   -
