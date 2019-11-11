@@ -404,3 +404,9 @@ public abstract class MultithreadEventExecutorGroup extends AbstractEventExecuto
 }
 ```
 
+------------
+
+下一篇：[netty案例，netty4.1源码分析篇二《ServerBootstrap配置与绑定启动》](/itstack-demo-netty-4/2019/09/11/netty%E6%A1%88%E4%BE%8B-netty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%BA%8C-ServerBootstrap%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%BB%91%E5%AE%9A%E5%90%AF%E5%8A%A8.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！
+

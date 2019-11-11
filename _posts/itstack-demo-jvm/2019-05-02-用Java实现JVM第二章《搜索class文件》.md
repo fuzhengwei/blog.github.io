@@ -509,3 +509,11 @@ ca fe ba be 00 00 00 34 00 22 0a 00 06 00 14 09
 **结果验证**
 Notepad++ 打开HelloWorld.class，在'插件'工具中选HEX-Editor设置为View in Hex 默认为8-bit
 ![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/11.png)
+
+------------
+
+上一篇：[用Java实现JVM第一章《命令行工具》](/itstack-demo-jvm/2019/05/01/%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7.html)
+
+下一篇：[用Java实现JVM第三章《解析class文件》](/itstack-demo-jvm/2019/05/03/%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%89%E7%AB%A0-%E8%A7%A3%E6%9E%90class%E6%96%87%E4%BB%B6.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**用Java实现jvm源码**」获取本文源码&更多原创专题案例！

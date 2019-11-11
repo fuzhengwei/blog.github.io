@@ -477,3 +477,9 @@ Process finished with exit code -1
 ```
 
 ------------
+
+上一篇：[netty案例，netty4.1中级拓展篇三《Netty传输Java对象》](/itstack-demo-netty-2/2019/08/18/netty%E6%A1%88%E4%BE%8B-netty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E4%B8%89-Netty%E4%BC%A0%E8%BE%93Java%E5%AF%B9%E8%B1%A1.html)
+
+下一篇：[netty案例，netty4.1中级拓展篇五《基于Netty搭建WebSocket，模仿微信聊天页面》](/itstack-demo-netty-2/2019/08/20/netty%E6%A1%88%E4%BE%8B-netty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E4%BA%94-%E5%9F%BA%E4%BA%8ENetty%E6%90%AD%E5%BB%BAWebSocket-%E6%A8%A1%E4%BB%BF%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E9%A1%B5%E9%9D%A2.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！

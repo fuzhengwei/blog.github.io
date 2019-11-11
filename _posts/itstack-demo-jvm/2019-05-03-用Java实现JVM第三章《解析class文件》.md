@@ -663,3 +663,10 @@ compareTo 		 (Ljava/lang/Object;)I
 Process finished with exit code 0
 
 ```
+------------
+
+上一篇：[用Java实现JVM第二章《搜索class文件》](/itstack-demo-jvm/2019/05/02/%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%90%9C%E7%B4%A2class%E6%96%87%E4%BB%B6.html)
+
+下一篇：[用Java实现JVM第三章《解析class文件》附[classReader拆解]](/itstack-demo-jvm/2019/05/04/%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%89%E7%AB%A0-%E8%A7%A3%E6%9E%90class%E6%96%87%E4%BB%B6-%E9%99%84-classReader%E6%8B%86%E8%A7%A3.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**用Java实现jvm源码**」获取本文源码&更多原创专题案例！

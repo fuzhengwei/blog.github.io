@@ -135,3 +135,8 @@ Spring Cloud 各个组件如何来配套使用：
 
 ------------
 
+下一篇：[Spring Cloud(一)《服务集群注册与发现 Eureka》](/itstack-demo-springcloud/2019/11/01/Spring-Cloud(%E4%B8%80)-%E6%9C%8D%E5%8A%A1%E9%9B%86%E7%BE%A4%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0-Eureka.html)
+
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
+
+
