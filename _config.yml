@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈 v1.2.9 | 沉淀、分享、成长，让自己和他人都能有所收获
+title:  bugstack虫洞栈 v1.3.0 | 沉淀、分享、成长，让自己和他人都能有所收获
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: bugstack虫洞栈
 email: 184172133@qq.com
@@ -187,10 +187,10 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
   owner: fuzhengwei
-  repo: fuzhengwei.github.io
+  repo: bugstack.cn
   oauth:
-    client_id: 61bfc53d957e74e78f8f
-    client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    client_id: df8beab2190bec20352a
+    client_secret: 7eeeb4369d699c933f02a026ae8bb1e2a9c80e90
 # https://github.com/gitalk/gitalk#install
 gitalk:
   owner: fuzhengwei
