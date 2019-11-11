@@ -79,9 +79,12 @@ navs:
     label: 首页
 
   - href: /
-    label: 编程基础
+    label: Java
     target: _self
     subnav:
+      -
+        subHref: /itstack-demo-any/itstack-demo-any.html
+        subLabel: 编程基础
       -
         subHref: /itstack-demo-springcloud/itstack-demo-springcloud.html
         subLabel: Spring Cloud
