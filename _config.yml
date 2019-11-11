@@ -194,7 +194,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
   owner: fuzhengwei
-  repo: fuzhengwei.github.io
+  repo: bugstack.cn
   clientID: df8beab2190bec20352a
   clientSecret: 7eeeb4369d699c933f02a026ae8bb1e2a9c80e90
 # 在使用其它评论组件时可点击显示 Disqus
