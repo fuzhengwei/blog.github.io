@@ -20,12 +20,12 @@ tag: [javaagent,itstack-demo-agent]
 >[Byte Buddy](http://bytebuddy.net/#/) is a code generation and manipulation library for creating and modifying Java classes during the runtime of a Java application and without the help of a compiler. Other than the code generation utilities that [ship with the Java Class Library](http://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Proxy.html), Byte Buddy allows the creation of arbitrary classes and is not limited to implementing interfaces for the creation of runtime proxies. Furthermore, Byte Buddy offers a convenient API for changing classes either manually, using a Java agent or during a build.
 
 ## 环境准备
-1、IntelliJ IDEA Community Edition
-2、jdk1.8.0_45 64位
+1. IntelliJ IDEA Community Edition
+2. jdk1.8.0_45 64位
 
 ## 配置信息（路径相关修改为自己的）
-1、配置位置：Run/Debug Configurations -> VM options
-2、配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-03\target\itstack-demo-agent-03-1.0.0-SNAPSHOT.jar=testargs
+1. 配置位置：Run/Debug Configurations -> VM options
+2. 配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-03\target\itstack-demo-agent-03-1.0.0-SNAPSHOT.jar=testargs
 
 ## 代码示例
 ```java
@@ -35,15 +35,15 @@ itstack-demo-agent-03
     ├── main
     │   ├── java
     │   │   └── org.itstack.demo.agent
-    │   │       ├── MethodCostTime.java
-    │   │	    └── MyAgent.java
-    │	└── resources
-    │       └── META-INF
-    │           └── MANIFEST.MF 	
+    │   │          ├── MethodCostTime.java
+    │   │	         └── MyAgent.java
+    │	 └── resources
+    │         └── META-INF
+    │                └── MANIFEST.MF 	
     └── test
          └── java
-             └── org.itstack.demo.test
-                 └── ApiTest.java
+               └── org.itstack.demo.test
+                     └── ApiTest.java
 ```
 >pom.xml (引入ByteBuddy并打入到Agent包中)
 

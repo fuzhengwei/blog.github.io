@@ -18,10 +18,10 @@ Netty的性能非常好，在一些小型用户体量的socket服务内，仅部
 
 
 ## 环境准备
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
-3、NetAssist 网络调试助手，可以从网上下载也可以联系我，微信公众号：bugstack虫洞栈 | 关注回复你的邮箱
-4、redis服务端，案例采用windows版本，按需从官网[下载即可](https://github.com/MicrosoftArchive/redis/tags)
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+3. NetAssist 网络调试助手，可以从网上下载也可以联系我，微信公众号：bugstack虫洞栈 | 关注回复你的邮箱
+4. redis服务端，案例采用windows版本，按需从官网[下载即可](https://github.com/MicrosoftArchive/redis/tags)
 
 ## 代码示例
 ```java

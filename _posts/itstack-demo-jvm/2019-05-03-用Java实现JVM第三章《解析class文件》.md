@@ -11,13 +11,13 @@ tag: [jvm,itstack-demo-jvm]
 >作为类（或者接口）信息的载体，每个class文件都完整地定义了一个类。为了使java程序可以“编写一次，处处运行”，Java虚拟机规范对class文件格式进行了严格的规定。但是另外一方面，对于从哪里加载class文件，给了足够多的自由。Java虚拟机实现可以从文件系统读取和从JAR（或ZIP）压缩包中提取clss文件。除此之外，也可以通过网络下载、从数据库加载，甚至是在运行中直接生成class文件。Java虚拟机规范中所指的class文件，并非特指位于磁盘中的.class文件，而是泛指任何格式符号规范的class数据。
 
 ## 环境准备
-1、jdk 1.8.0
-2、IntelliJ IDEA Community Edition 2018.3.1 x64
+1. jdk 1.8.0
+2. IntelliJ IDEA Community Edition 2018.3.1 x64
 
 ## 配置信息
-1、调试配置
-2.1、配置位置：Run/Debug Configurations -> program arguments
-2.2、配置内容：-Xjre "C:\Program Files\Java\jdk1.8.0_161\jre" java.lang.String
+1. 调试配置
+    1. 配置位置：Run/Debug Configurations -> program arguments
+    2. 配置内容：-Xjre "C:\Program Files\Java\jdk1.8.0_161\jre" java.lang.String
 
 ## 代码示例
 ```java

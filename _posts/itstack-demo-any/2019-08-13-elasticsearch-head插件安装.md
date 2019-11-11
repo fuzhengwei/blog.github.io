@@ -12,7 +12,7 @@ tag: [ddd,itstack-demo-any]
 >elasticsearch-head 是用于监控 Elasticsearch 状态的客户端插件，包括数据可视化、执行增删改查操作等。elasticsearch-head 插件的安装在 Linux 和 Windows 没什么区别，安装之前确保当前系统已经安装 nodejs 即可。
 
 ## 安装环境
-1、安装[node.js](https://nodejs.org/en/download/)并配置环境变量PATH{path:D:\Program Files\nodejs\}
+1. 安装[node.js](https://nodejs.org/en/download/)并配置环境变量PATH{path:D:\Program Files\nodejs\}
 
 - [nodejs下载](https://nodejs.org/en/download/)
 ![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/nodejs.png)
@@ -21,7 +21,7 @@ tag: [ddd,itstack-demo-any]
 - 查看nodejs版本；node -v
 ![](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/nodejsversion.png)
 
-2、安装elasticsearch-head
+2. 安装elasticsearch-head
 - [下载elasticsearch-head](https://github.com/mobz/elasticsearch-head)
 - 将elasticsearch-head放到与elasticsearch同层级文件夹下
 - 修改elasticsearch-head/Gruntfile.js

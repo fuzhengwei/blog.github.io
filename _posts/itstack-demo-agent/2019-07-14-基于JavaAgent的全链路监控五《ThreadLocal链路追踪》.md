@@ -22,12 +22,12 @@ tag: [javaagent,itstack-demo-agent]
 当业务程序代码在线上运行时，实例A、实例B、实例C，他们直接可能从上到下依次调用，为了能很好的监控程序的调用链路，我们需要对调用链路进行追踪监控。实例的外部可能是通过RPC、HTTP、SOCKET、WEBSERVICE等方式进行调用，内部是方法逻辑依次执行。外部例如http可以通过在头部写入追踪ID进行监控，内部使用threadlocal进行保存上下文关系。｛ThreadLocal变量特殊的地方在于：对变量值的任何操作实际都是对这个变量在线程中的一份copy进行操作，不会影响另外一个线程中同一个ThreadLocal变量的值。｝
 
 ## 环境准备
-1、IntelliJ IDEA Community Edition
-2、jdk1.8.0_45 64位
+1. IntelliJ IDEA Community Edition
+2. jdk1.8.0_45 64位
 
 ## 配置信息（路径相关修改为自己的）
-1、配置位置：Run/Debug Configurations -> VM options
-2、配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-05\target\itstack-demo-agent-05-1.0.0-SNAPSHOT.jar=testargs
+1. 配置位置：Run/Debug Configurations -> VM options
+2. 配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-05\target\itstack-demo-agent-05-1.0.0-SNAPSHOT.jar=testargs
 
 ## 代码示例
 ```java
@@ -37,12 +37,12 @@ itstack-demo-agent-05
     ├── main
     │   ├── java
     │   │   └── org.itstack.demo.agent
-    │   │       ├──	track
-    │   │ 	    │   ├── TrackContext.java	
-    │   │ 	    │   └── TrackManager.java	
-    │   │       ├── MyAdvice.java
-    │   │	    └── MyAgent.java
-    │	└── resources
+    │   │         ├──track
+    │   │ 	    │    ├── TrackContext.java	
+    │   │ 	    │    └── TrackManager.java	
+    │   │         ├── MyAdvice.java
+    │   │	        └── MyAgent.java
+    │	 └── resources
     │       └── META-INF
     │           └── MANIFEST.MF 	
     └── test

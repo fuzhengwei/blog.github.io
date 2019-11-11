@@ -17,9 +17,9 @@ ChunkedStream 从InputStream 中逐块传输内容
 ChunkedNioStream 从ReadableByteChannel 中逐块传输内容
 
 ## 开发环境
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
-3、NetAssist 网络调试助手[获取：关注公众号：bugstack虫洞栈 | 回复；NetAssist+邮箱]
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+3. NetAssist 网络调试助手[获取：关注公众号：bugstack虫洞栈 | 回复；NetAssist+邮箱]
 
 ## 代码示例
 ```java

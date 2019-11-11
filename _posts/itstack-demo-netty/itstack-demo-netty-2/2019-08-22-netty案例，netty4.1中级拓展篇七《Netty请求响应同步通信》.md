@@ -17,8 +17,8 @@ Thrift：最初是由 Facebook 开发的内部系统跨语言的 RPC 框架，20
 hprose：一个MIT开源许可的新型轻量级跨语言跨平台的面向对象的高性能远程动态通讯中间件。它支持众多语言:nodeJs, C++, .NET, Java, Delphi, Objective-C, ActionScript, JavaScript, ASP, PHP, Python, Ruby, Perl, Golang 。
 
 ## 环境准备
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
 
 ## 代码示例
 ```java

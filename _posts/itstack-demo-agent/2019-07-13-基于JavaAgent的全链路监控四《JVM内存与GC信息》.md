@@ -19,12 +19,12 @@ tag: [javaagent,itstack-demo-agent]
 除了监控java方法的执行耗时，我们还需要获取应用实例的jvm内存与gc信息，以实时把控我们的服务器性能是否在安全范围。监控jvm内存与gc信息是非常重要的，尤其是在大促以及微博火热爆点的时候，我们需要根据监控信息进行扩容，以保证系统稳定。
 
 ## 环境准备
-1、IntelliJ IDEA Community Edition
-2、jdk1.8.0_45 64位
+1. IntelliJ IDEA Community Edition
+2. jdk1.8.0_45 64位
 
 ## 配置信息（路径相关修改为自己的）
-1、配置位置：Run/Debug Configurations -> VM options
-2、配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-04\target\itstack-demo-agent-04-1.0.0-SNAPSHOT.jar=testargs
+1. 配置位置：Run/Debug Configurations -> VM options
+2. 配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-04\target\itstack-demo-agent-04-1.0.0-SNAPSHOT.jar=testargs
 
 ## 代码示例
 ```java

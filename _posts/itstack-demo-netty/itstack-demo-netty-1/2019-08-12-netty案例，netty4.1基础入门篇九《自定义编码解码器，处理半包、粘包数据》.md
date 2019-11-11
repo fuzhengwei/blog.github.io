@@ -16,9 +16,9 @@ tag: [netty,itstack-demo-netty-1]
 
 
 ## 环境准备
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
-3、telnet 测试【可以现在你的win7机器上测试这个命令，用于链接到服务端的测试命令】
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+3. telnet 测试【可以现在你的win7机器上测试这个命令，用于链接到服务端的测试命令】
 
 ## 代码示例
 ```java

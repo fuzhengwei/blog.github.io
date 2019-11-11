@@ -18,9 +18,9 @@ tag: [spring,itstack-demo-springcloud]
 本案例在itstack-demo-springcloud-02的基础上添加Hystrix服务，当我们的itstack-demo-springcloud-eureka-client尚未启动或主动停止后，我们在调用接口服务时候会进行熔断保护。
 
 ## 环境准备
-1、jdk 1.8
-2、Spring Boot 2.0.6.RELEASE
-3、Spring Cloud Finchley.SR2
+1. jdk 1.8
+2. Spring Boot 2.0.6.RELEASE
+3. Spring Cloud Finchley.SR2
 
 ## 代码示例
 ```java
@@ -427,17 +427,17 @@ eureka:
 ```
 
 ## 测试验证
-1、启动服务注册中心itstack-demo-springcloud-eureka-server
-2、本地测试不启动eureka-client，以达到服务不可以用的效果
-3、启动itstack-demo-springcloud-feign 
-4、启动itstack-demo-springcloud-ribbon
-5、访问Feign服务调用方，在熔断的保护下会返回预定熔断结果：http://localhost:9001/api/queryUserInfo?userId=1024
+1. 启动服务注册中心itstack-demo-springcloud-eureka-server
+2. 本地测试不启动eureka-client，以达到服务不可以用的效果
+3. 启动itstack-demo-springcloud-feign 
+4. 启动itstack-demo-springcloud-ribbon
+5. 访问Feign服务调用方，在熔断的保护下会返回预定熔断结果：http://localhost:9001/api/queryUserInfo?userId=1024
 
 ```java
 queryUserInfo by userId：1024 err！from feign hystrix From Feign
 queryUserInfo by userId：1024 err！from feign hystrix From Feign
 ```
-6、访问Ribbon服务调用方，在熔断的保护下会返回预定熔断结果：http://localhost:9002/api/queryUserInfo?userId=1024
+6. 访问Ribbon服务调用方，在熔断的保护下会返回预定熔断结果：http://localhost:9002/api/queryUserInfo?userId=1024
 
 ```java
 queryUserInfo by userId：1024 err！from ribbon hystrix From Ribbon
@@ -445,9 +445,9 @@ queryUserInfo by userId：1024 err！from ribbon hystrix From Ribbon
 ```
 
 ## 综上总结
-1、Spring Cloud 将Hystrix整合后提供非常简单的使用方式，并且提供了丰富的配置可以满足实际应用开发
-2、Hystrix Git开源代码；https://github.com/Netflix/Hystrix
-3、在熔断降级就像是电闸的保险丝，可以在非常重要的时刻快速失败保护系统
+1. Spring Cloud 将Hystrix整合后提供非常简单的使用方式，并且提供了丰富的配置可以满足实际应用开发
+2. Hystrix Git开源代码；https://github.com/Netflix/Hystrix
+3. 在熔断降级就像是电闸的保险丝，可以在非常重要的时刻快速失败保护系统
 
 ------------
 

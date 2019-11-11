@@ -23,9 +23,9 @@ private final ConcurrentHashMap<String, Map<String, Lease<InstanceInfo>>> regist
 本案例在itstack-demo-springcloud-02工程中提供单个服务注册、服务提供方、Ribbon调用、Fegin调用，通过修改端口启动2个提供方来模拟测试负载均衡。
 
 ## 环境准备
-1、jdk 1.8
-2、Spring Boot 2.0.6.RELEASE
-3、Spring Cloud Finchley.SR2
+1. jdk 1.8
+2. Spring Boot 2.0.6.RELEASE
+3. Spring Cloud Finchley.SR2
 
 ## 代码示例
 ```java
@@ -361,19 +361,19 @@ eureka:
 ```
 
 ## 测试验证
-1、启动服务注册中心itstack-demo-springcloud-eureka-server
-2、分别启动itstack-demo-springcloud-eureka-client，修改端口8001、8002启动两次提供两个服务
-3、启动itstack-demo-springcloud-feign
-4、启动itstack-demo-springcloud-ribbon
-5、访问服务注册中心http://localhost:7397/
+1. 启动服务注册中心itstack-demo-springcloud-eureka-server
+2. 分别启动itstack-demo-springcloud-eureka-client，修改端口8001、8002启动两次提供两个服务
+3. 启动itstack-demo-springcloud-feign
+4. 启动itstack-demo-springcloud-ribbon
+5. 访问服务注册中心http://localhost:7397/
 ![微信公众号：bugstack虫洞栈 & 服务注册中心](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/springcloud-2-2.png)
-6、访问服务提供方；http://localhost:8001/api/queryUserInfo?userId=111 | 说明服务正常
+6. 访问服务提供方；http://localhost:8001/api/queryUserInfo?userId=111 | 说明服务正常
 
 ```java
 Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8001
 ```
 
-7、访问Feign服务调用放，每次刷新会看到负载均衡调用到不同端口服务：http://localhost:9001/api/queryUserInfo?userId=111
+7. 访问Feign服务调用放，每次刷新会看到负载均衡调用到不同端口服务：http://localhost:9001/api/queryUserInfo?userId=111
 
 ```java
 Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8002 From Feign
@@ -381,7 +381,7 @@ Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8002 Fr
 Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8001 From Feign
 ```
 
-8、访问Ribbon服务调用放，每次刷新会看到负载均衡调用到不同端口服务：http://localhost:9002/api/queryUserInfo?userId=111
+8. 访问Ribbon服务调用放，每次刷新会看到负载均衡调用到不同端口服务：http://localhost:9002/api/queryUserInfo?userId=111
 
 ```java
 Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8001 From Ribbon
@@ -390,11 +390,11 @@ Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8002 Fr
 ```
 
 ## 综上总结
-1、在使用SpringCloud时我们可以很轻松的使用到注册中心与很简单的方式去做服务调用
-2、以上负载均衡，都是以轮询访问的方式实现的，实际开发过程中还会有一些依赖于机器性能、GC、调用量、响应时间等计算的权重值来做负载IRule
-3、服务注册中心，负责维护注册的服务列表，同其他服务注册中心一样，支持高可用配置
-4、服务提供方，作为一个 Eureka Client，向 Eureka Server 做服务注册、续约和下线等操作，注册的主要数据包括服务名、机器 ip、端口号、域名等
-5、服务消费方，作为一个 Eureka Client，向 Eureka Server 获取 Service Provider 的注册信息，并通过远程调用与 Service Provider 进行通信
+1. 在使用SpringCloud时我们可以很轻松的使用到注册中心与很简单的方式去做服务调用
+2. 以上负载均衡，都是以轮询访问的方式实现的，实际开发过程中还会有一些依赖于机器性能、GC、调用量、响应时间等计算的权重值来做负载IRule
+3. 服务注册中心，负责维护注册的服务列表，同其他服务注册中心一样，支持高可用配置
+4. 服务提供方，作为一个 Eureka Client，向 Eureka Server 做服务注册、续约和下线等操作，注册的主要数据包括服务名、机器 ip、端口号、域名等
+5. 服务消费方，作为一个 Eureka Client，向 Eureka Server 获取 Service Provider 的注册信息，并通过远程调用与 Service Provider 进行通信
 
 ------------
 

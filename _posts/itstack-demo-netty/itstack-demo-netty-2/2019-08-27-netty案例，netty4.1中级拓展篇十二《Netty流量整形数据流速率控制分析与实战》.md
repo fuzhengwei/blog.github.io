@@ -40,8 +40,8 @@ AbstractTrafficShapingHandler允许限制全局的带宽(见GlobalTrafficShaping
 它允许你使用TrafficCounter来实现几乎实时的带宽监控，TrafficCounter会在每个检测间期（checkInterval）调用这个处理器的doAccounting方法。
 
 如果你有任何特别的原因想要停止监控（计数）或者改变读写的限制或者改变检测间期（checkInterval），可以使用如下方法：
-1、configure：允许你改变读或写的限制，或者检测间期（checkInterval）；
-2、getTrafficCounter：允许你获得TrafficCounter，并可以停止或启动监控，直接改变检测间期（checkInterval），或去访问它的值。
+1. configure：允许你改变读或写的限制，或者检测间期（checkInterval）；
+2. getTrafficCounter：允许你获得TrafficCounter，并可以停止或启动监控，直接改变检测间期（checkInterval），或去访问它的值。
 
 **TrafficCounter**：对读和写的字节进行计数以用于限制流量。
 它会根据给定的检测间期周期性的计算统计入站和出站的流量，并会回调AbstractTrafficShapingHandler的doAccounting方法。
@@ -234,8 +234,8 @@ public class GlobalChannelTrafficShapingHandler extends AbstractTrafficShapingHa
 相比于GlobalTrafficShapingHandler增加了一个误差概念，以平衡各个Channel间的读/写操作。也就是说，使得各个Channel间的读/写操作尽量均衡。比如，尽量避免不同Channel的大数据包都延迟近乎一样的是时间再操作，以及如果小数据包在一个大数据包后才发送，则减少该小数据包的延迟发送时间等。。
 
 ## 开发环境
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
 
 ## 代码示例
 ```java

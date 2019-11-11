@@ -19,8 +19,8 @@ ChannelOutboundHandlerAdapter与ChannelInboundHandlerAdapter都是继承于Chann
 ![ChannelHandler类图](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/ChannelHandler类图.png)
 
 ## 环境准备
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
 
 ## 代码示例
 ```java

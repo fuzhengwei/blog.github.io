@@ -10,11 +10,11 @@ tag: [netty,itstack-demo-netty-2]
 在实际的开发场景中，我们希望将大量的业务以及用户行为数据存储起来用于分析处理，但是由于数据量较大且需要具备可分析功能所以将数据存储到文件系统更为合理。尤其是一些互联网高并发级应用，往往数据库都采用分库分表设计，那么将这些分散的数据通过binlog汇总到一个统一的文件系统就显得非常有必要。
 
 ## 开发环境
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
-3、elasticsearch6.2.2
-   3.1、[windows环境下安装elasticsearch6.2.2](https://bugstack.cn/?p=149 )
-   3.2、[elasticsearch-head插件安装](https://bugstack.cn/?p=148)
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+3. elasticsearch6.2.2
+   1. [windows环境下安装elasticsearch6.2.2](https://bugstack.cn/?p=149 )
+   2. [elasticsearch-head插件安装](https://bugstack.cn/?p=148)
 
 ## 代码示例
 ```java

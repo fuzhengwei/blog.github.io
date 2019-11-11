@@ -10,15 +10,15 @@ tag: [netty,itstack-demo-netty-2]
 Netty在实际应用级开发中，有时候某些特定场景下会需要使用Java对象类型进行传输，但是如果使用Java本身序列化进行传输，那么对性能的损耗比较大。为此我们需要借助protostuff-core的工具包将对象以二进制形式传输并做编码解码处理。与直接使用protobuf二进制传输方式不同，这里不需要定义proto文件，而是需要实现对象类型编码解码器，用以传输自定义Java对象。
 
 >protostuff 基于Google protobuf，但是提供了更多的功能和更简易的用法。其中，protostuff-runtime 实现了无需预编译对java bean进行protobuf序列化/反序列化的能力。protostuff-runtime的局限是序列化前需预先传入schema，反序列化不负责对象的创建只负责复制，因而必须提供默认构造函数。此外，protostuff 还可以按照protobuf的配置序列化成json/yaml/xml等格式。在性能上，protostuff不输原生的protobuf，甚至有反超之势。
-1、支持protostuff-compiler产生的消息
-2、支持现有的POJO对象
-3、支持现有的protoc产生的Java消息
-4、与各种移动平台的互操作能力（Android、Kindle、j2me）
-5、支持转码
+1. 支持protostuff-compiler产生的消息
+2. 支持现有的POJO对象
+3. 支持现有的protoc产生的Java消息
+4. 与各种移动平台的互操作能力（Android、Kindle、j2me）
+5. 支持转码
 
 ## 开发环境
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
 
 ## 代码示例
 ```java

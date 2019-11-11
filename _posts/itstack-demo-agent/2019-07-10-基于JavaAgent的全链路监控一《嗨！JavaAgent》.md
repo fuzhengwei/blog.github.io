@@ -21,12 +21,12 @@ tag: [javaagent,itstack-demo-agent]
 JavaAgent是在JDK5之后提供的新特性，也可以叫java代理。开发者通过这种机制(Instrumentation)可以在加载class文件之前修改方法的字节码(此时字节码尚未加入JVM)，动态更改类方法实现AOP，提供监控服务如；方法调用时长、可用率、内存等。本章节初步怎么让java代码执行时可以进入我们的agent方法。
 
 ## 环境准备
-1、IntelliJ IDEA Community Edition
-2、jdk1.8.0_45 64位
+1. IntelliJ IDEA Community Edition
+2. jdk1.8.0_45 64位
 
 ## 配置信息 （路径相关修改为自己的）
-1、配置位置：Run/Debug Configurations -> VM options
-2、配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-01\target\itstack-demo-agent-01-1.0.0-SNAPSHOT.jar=testargs
+1. 配置位置：Run/Debug Configurations -> VM options
+2. 配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-01\target\itstack-demo-agent-01-1.0.0-SNAPSHOT.jar=testargs
 
 ## 代码示例
 ```java

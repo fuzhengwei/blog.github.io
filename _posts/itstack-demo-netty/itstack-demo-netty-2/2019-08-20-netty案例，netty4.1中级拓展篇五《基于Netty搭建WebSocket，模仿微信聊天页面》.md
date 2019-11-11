@@ -8,16 +8,16 @@ tag: [netty,itstack-demo-netty-2]
 
 ## 前言介绍
 本章节我们模仿微信聊天页面，开发一个基于Netty搭建WebSocket通信案例。Netty的应用方面非常广；聊天、MQ、RPC、数据等等，在5G到来的时候更加需要大量数据传输，Netty的应用也会更加广阔。
-1、这个案例使用SpringBoot+Netty+WebSocket搭建功能。
-2、使用Netty提供的HttpServerCodec、HttpObjectAggregator、ChunkedWriteHandler进行编码解码处理。
-3、通信逻辑尽可能简化到只了解根本，便于后续个人应用及开发的拓展。
-   3.1、客户端链接成功后，向服务端发送请求获取个人信息，也可以拓展为登录请求。
-   3.2、获取个人信息后，就可以知道差异化展示消息到页面。
+1. 这个案例使用SpringBoot+Netty+WebSocket搭建功能。
+2. 使用Netty提供的HttpServerCodec、HttpObjectAggregator、ChunkedWriteHandler进行编码解码处理。
+3. 通信逻辑尽可能简化到只了解根本，便于后续个人应用及开发的拓展。
+   1. 客户端链接成功后，向服务端发送请求获取个人信息，也可以拓展为登录请求。
+   2. 获取个人信息后，就可以知道差异化展示消息到页面。
   
 ## 开发环境
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
-3、jquery.min.js、jquery.serialize-object.min.js
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+3. jquery.min.js、jquery.serialize-object.min.js
 
 ## 代码示例
 ```java

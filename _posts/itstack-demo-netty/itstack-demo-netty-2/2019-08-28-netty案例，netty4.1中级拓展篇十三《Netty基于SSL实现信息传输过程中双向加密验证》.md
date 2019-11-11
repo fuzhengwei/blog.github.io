@@ -32,9 +32,9 @@ javax.net.ssl.SSLHandshakeException: General SSLEngine problem
 ```
 
 ## 开发环境
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
-3、OpenSSL-Win64 可以按照自己的需要进行下载；[http://slproweb.com/products/Win32OpenSSL.html](http://slproweb.com/products/Win32OpenSSL.html)
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+3. OpenSSL-Win64 可以按照自己的需要进行下载；[http://slproweb.com/products/Win32OpenSSL.html](http://slproweb.com/products/Win32OpenSSL.html)
 
 ## 生成证书 | 过程较长，耐心完成
 

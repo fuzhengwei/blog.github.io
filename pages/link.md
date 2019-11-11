@@ -9,7 +9,6 @@ permalink: /link
 
 ## 友情链接
 
-- [纯洁的微笑](http://www.ityouknow.net/blog-neo) - 一个有故事的程序员
 - [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
 - [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 

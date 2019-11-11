@@ -23,12 +23,12 @@ tag: [javaagent,itstack-demo-agent]
 >关于java字节码的处理，目前有很多工具，如bcel，asm。不过这些都需要直接跟虚拟机指令打交道。如果你不想了解虚拟机指令，可以采用javassist。javassist是jboss的一个子项目，其主要的优点，在于简单，而且快速。直接使用java编码的形式，而不需要了解虚拟机指令，就能动态改变类的结构，或者动态生成类。
 
 ## 环境准备
-1、IntelliJ IDEA Community Edition
-2、jdk1.8.0_45 64位
+1. IntelliJ IDEA Community Edition
+2. jdk1.8.0_45 64位
 
 ## 配置信息（路径相关修改为自己的）
-1、配置位置：Run/Debug Configurations -> VM options
-2、配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-02\target\itstack-demo-agent-02-1.0.0-SNAPSHOT.jar=testargs
+1. 配置位置：Run/Debug Configurations -> VM options
+2. 配置内容：-javaagent:E:\itstack\GIT\itstack.org\itstack-demo-agent\itstack-demo-agent-02\target\itstack-demo-agent-02-1.0.0-SNAPSHOT.jar=testargs
 
 ## 代码示例
 ```java

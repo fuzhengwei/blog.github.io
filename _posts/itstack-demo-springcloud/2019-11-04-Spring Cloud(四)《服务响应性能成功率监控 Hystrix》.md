@@ -13,9 +13,9 @@ Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内�
 结合上一章节案例，通过添加配置启动Hystrix Dashboard，来监控服务实时运行状态；服务信息、接口名、调用次数、响应时间、可用率、延迟、熔断状态等。
 
 ## 环境准备
-1、jdk 1.8
-2、Spring Boot 2.0.6.RELEASE
-3、Spring Cloud Finchley.SR2
+1. jdk 1.8
+2. Spring Boot 2.0.6.RELEASE
+3. Spring Cloud Finchley.SR2
 
 ## 代码示例
 
@@ -477,19 +477,19 @@ eureka:
 ```
 
 ## 测试验证
-1、启动itstack-demo-springcloud-hystrix-dashboard，访问；http://localhost:8989/hystrix
+1. 启动itstack-demo-springcloud-hystrix-dashboard，访问；http://localhost:8989/hystrix
 ![微信公众号：bugstack虫洞栈 & hystrix-dashboard 监控入口](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/springcloud-4-3.png)
-2、测试监控
-2.1、分别启动itstack-demo-springcloud-eureka-client、itstack-demo-springcloud-hystrix-feign与itstack-demo-springcloud-hystrix-ribbon
-2.2、http://localhost:8989/hystrix入口处填写；http://localhost:9001/actuator/hystrix.stream ｛也就是fegin调用接口｝
-2.2、刷新调用接口；http://localhost:9001/api/queryUserInfo?userId=111，观察监控页面｛过程中讲服务提供方关闭｝
+2. 测试监控
+    1. 分别启动itstack-demo-springcloud-eureka-client、itstack-demo-springcloud-hystrix-feign与itstack-demo-springcloud-hystrix-ribbon
+    2. http://localhost:8989/hystrix入口处填写；http://localhost:9001/actuator/hystrix.stream ｛也就是fegin调用接口｝
+    3. 刷新调用接口；http://localhost:9001/api/queryUserInfo?userId=111，观察监控页面｛过程中讲服务提供方关闭｝
 ![微信公众号：bugstack虫洞栈 & 监控面板](https://fuzhengwei.github.io/assets/images/pic-content/2019/11/springcloud-4-4.png)
-3、也可以直接访问；http://localhost:9001/actuator/hystrix.stream，会收到ping监控数据
+3. 也可以直接访问；http://localhost:9001/actuator/hystrix.stream，会收到ping监控数据
 
 ## 综上总结
-1、hystrix-dashboard 可以非常方便的实时监控系统健康度
-2、实际开发过程中还有很多其他的监控系统，包括一些调用链路、系统可用率、jvm、gc等等
-3、监控数据常常需要日志一起配合使用，才能更好的做到监控并查阅，尽快解决异常问题
+1. hystrix-dashboard 可以非常方便的实时监控系统健康度
+2. 实际开发过程中还有很多其他的监控系统，包括一些调用链路、系统可用率、jvm、gc等等
+3. 监控数据常常需要日志一起配合使用，才能更好的做到监控并查阅，尽快解决异常问题
 
 ------------
 

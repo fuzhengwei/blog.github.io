@@ -12,9 +12,9 @@ tag: [netty,itstack-demo-netty-2]
 Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages. [https://developers.google.cn/protocol-buffers](https://developers.google.cn/protocol-buffers)
 
 ## 开发环境
-1、jdk1.8【jdk1.7以下只能部分支持netty】
-2、Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
-3、protoc-3.5.0-win32 【用于编译proto文件(protoc -I=源地址 --java_out=目标地址  源地址/xxx.proto)，源码中已经提供，如果是其他开发环境可以自行下载】
+1. jdk1.8【jdk1.7以下只能部分支持netty】
+2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
+3. protoc-3.5.0-win32 【用于编译proto文件(protoc -I=源地址 --java_out=目标地址  源地址/xxx.proto)，源码中已经提供，如果是其他开发环境可以自行下载】
 
 ## 代码示例
 ```java
