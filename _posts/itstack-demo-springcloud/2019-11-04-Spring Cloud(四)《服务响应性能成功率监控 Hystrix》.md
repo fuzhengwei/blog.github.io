@@ -20,7 +20,7 @@ Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内�
 ## 代码示例
 
 ```java
-itstack-demo-springcloud-03
+itstack-demo-springcloud-04
 ├── itstack-demo-springcloud-eureka-client
 │   └── src
 │       └── main
