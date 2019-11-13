@@ -11,7 +11,7 @@ Hystrix Dashboard 可以定时收集接口调用信息；时长、次数、性�
 
 ## 案例说明
 案例通过添加itstack-demo-springcloud-turbine工程模块，将单体监控汇总在统一页面进行管理，此时的监控模型，如图；
-![微信公众号：bugstack虫洞栈 & Turbine监控模型](https://img11.360buyimg.com/imagetools/jfs/t1/106376/1/2126/110055/5dcbb80eEa95921a2/59f77f7b2b43fd68.png)
+![微信公众号：bugstack虫洞栈 & Turbine监控模型](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-5-1.png)
 
 ## 环境准备
 1. jdk 1.8、idea2018、Maven3
@@ -549,7 +549,7 @@ turbine:
    1. 在hystrix-dashboard监控页面｛http://localhost:8989/hystrix｝，输入；http://localhost:8080/turbine.stream
    2. 刷新访问两个调用方接口；http://localhost:9001/api/queryUserInfo?userId=111、http://localhost:9002/api/queryUserInfo?userId=111
    3. 回看刚才的监控页面；http://localhost:8989/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8080%2Fturbine.stream，已经可以看到监控信息汇总，如图；
-      ![微信公众号：bugstack虫洞栈 & 监控信息汇总](https://img14.360buyimg.com/imagetools/jfs/t1/105073/17/2149/64376/5dcbbc0dE0e77150d/61e8977317b1fb0c.png)
+      ![微信公众号：bugstack虫洞栈 & 监控信息汇总](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-5-2.png)
 
 ## 综上总结
 1. 通过Turbine服务我们可以将监控信息汇总到一起进行查看，这样更加方便实际应用。
