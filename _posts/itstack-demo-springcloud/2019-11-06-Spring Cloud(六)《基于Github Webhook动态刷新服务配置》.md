@@ -1,7 +1,7 @@
 ---
 layout: post
 category: itstack-demo-springcloud
-title: Spring Cloud(五)《Turbine 监控信息聚合展示 Hystrix》
+title: Spring cloud(六)《基于github webhook动态刷新服务配置》
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
 ---
