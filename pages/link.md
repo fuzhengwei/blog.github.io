@@ -11,6 +11,8 @@ permalink: /link
 
 - [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
 - [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
+- [IT玩客申请友链](https://www.91the.top) - IT玩客 - 记录程序员生涯中 值得回味 值得把玩的技术
+- [低调小熊猫](http://ilovey.live) - Who can keep youth forever, it is a great man.🥚
 
 ## 推荐网站
 
