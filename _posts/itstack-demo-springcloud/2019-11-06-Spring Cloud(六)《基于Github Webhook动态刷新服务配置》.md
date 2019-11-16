@@ -187,7 +187,7 @@ spring:
 		"state": null,
 		"propertySources": [
 			{
-				"name": "https://github.com/zhaoyibo/spring-cloud-study/config-repo/config-client-dev.yml",
+				"name": "https://github.com/fuzhengwei/itstack-demo-config/config-repo/config-client-dev.yml",
 				"source": {
 					"info.profile": "dev bus"
 				}
