@@ -37,7 +37,7 @@ function getToken() {
         setCookie('BUGSTACK_distinctid',value);
 		return value;
 	}
-	return uuid.toUpperCase();
+	return value.toUpperCase();
 }
 
 function getUUID(){
