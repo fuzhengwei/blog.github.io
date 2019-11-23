@@ -85,12 +85,13 @@ var _detect = function() {
 	$.ajax({
 		url : 'https://wx.bugstack.cn/itstack-ark-wx/api/check',
 		type: "GET",
+		dataType: "text",
 		data : {
 			token : token
 		},
 		success : function(data) {
 			console.log(data);
-			if (data == 'success') {
+			if (data == 'refuse') {
 				_lock();
 			} else {
 				_unlock();
