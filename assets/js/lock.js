@@ -81,9 +81,9 @@ var _unlock = function() {
 
 // 查询后端的结果
 var _detect = function() {
-	console.log('Detecting Token', token);
+	console.info(token);
 	$.ajax({
-		url : 'http://wx.bugstack.cn/itstack-ark-wx/api/check',
+		url : 'https://wx.bugstack.cn/itstack-ark-wx/api/check',
 		method : 'GET',
 		data : {
 			token : token
