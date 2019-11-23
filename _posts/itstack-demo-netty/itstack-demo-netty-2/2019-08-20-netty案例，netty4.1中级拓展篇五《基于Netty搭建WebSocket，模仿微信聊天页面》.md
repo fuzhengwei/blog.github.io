@@ -4,6 +4,7 @@ category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇五《基于Netty搭建WebSocket，模仿微信聊天页面》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-2]
+lock: need
 ---
 
 ## 前言介绍

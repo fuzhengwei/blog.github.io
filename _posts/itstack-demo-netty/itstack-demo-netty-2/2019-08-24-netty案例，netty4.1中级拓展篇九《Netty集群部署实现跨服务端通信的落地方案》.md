@@ -4,6 +4,7 @@ category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇九《Netty集群部署实现跨服务端通信的落地方案》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-2]
+lock: need
 ---
 
 ## 前言介绍

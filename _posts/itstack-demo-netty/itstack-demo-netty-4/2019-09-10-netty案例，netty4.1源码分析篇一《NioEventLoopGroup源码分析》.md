@@ -4,6 +4,7 @@ category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-4]
+lock: need
 ---
 
 本章节我们从一个基础构建的基础NettyServer来分析NioEventLoopGroup源码，其中包括了；EventLoopGroup事件循环组、NioEventLoopGroup异步事件循环组、MultithreadEventLoopGroup多线程事件循环组等。

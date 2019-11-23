@@ -4,6 +4,7 @@ category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇五《一行简单的writeAndFlush都做了哪些事》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-4]
+lock: need
 ---
 
 ## 前言介绍

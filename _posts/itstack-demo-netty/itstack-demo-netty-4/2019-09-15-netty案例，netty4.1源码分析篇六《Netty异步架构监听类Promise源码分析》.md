@@ -4,6 +4,7 @@ category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇六《Netty异步架构监听类Promise源码分析》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-4]
+lock: need
 ---
 
 ## 前言介绍

@@ -4,6 +4,7 @@ category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇十三《Netty基于SSL实现信息传输过程中双向加密验证》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-2]
+lock: need
 ---
 
 ## 前言介绍

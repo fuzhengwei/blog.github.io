@@ -3,7 +3,8 @@ layout: post
 category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇六《SpringBoot+Netty+Elasticsearch收集日志信息数据存储》
 tagline: by 付政委
-tag: [netty,itstack-demo-netty-2]
+tag: [netty,itstack-demo-netty-2] 
+lock: need
 ---
 
 ## 前言介绍

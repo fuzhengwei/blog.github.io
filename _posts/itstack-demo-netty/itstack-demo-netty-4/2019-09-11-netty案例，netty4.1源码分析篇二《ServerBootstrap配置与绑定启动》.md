@@ -3,7 +3,8 @@ layout: post
 category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇二《ServerBootstrap配置与绑定启动》
 tagline: by 付政委
-tag: [netty,itstack-demo-netty-4]
+tag: [netty,itstack-demo-netty-4] 
+lock: need
 ---
 
 结合上一章节介绍NioEventLoopGroup，本章节继续介绍ServerBootstrap相关代码。

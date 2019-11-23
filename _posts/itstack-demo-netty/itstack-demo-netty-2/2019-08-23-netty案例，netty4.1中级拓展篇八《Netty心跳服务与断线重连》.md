@@ -4,6 +4,7 @@ category: itstack-demo-netty-2
 title: netty案例，netty4.1中级拓展篇八《Netty心跳服务与断线重连》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-2]
+lock: need
 ---
 
 ## 前言介绍

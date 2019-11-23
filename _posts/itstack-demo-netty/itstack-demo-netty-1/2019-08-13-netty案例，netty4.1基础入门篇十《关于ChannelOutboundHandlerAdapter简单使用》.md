@@ -4,6 +4,7 @@ category: itstack-demo-netty-1
 title: netty案例，netty4.1基础入门篇十《关于ChannelOutboundHandlerAdapter简单使用》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-1]
+lock: need
 ---
 
 ## 前言介绍

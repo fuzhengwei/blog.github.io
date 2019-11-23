@@ -4,6 +4,7 @@ category: itstack-demo-netty-4
 title: netty案例，netty4.1源码分析篇三《Netty服务端初始化过程以及反射工厂的作用》
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-4]
+lock: need
 ---
 
 本章节主要分析Netty在启动过程中的配置内容以及最终调用bind方法是如何启动Netty服务端的。
