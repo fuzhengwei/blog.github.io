@@ -89,7 +89,7 @@ var _detect = function() {
 			token : token
 		},
 		success : function(data) {
-			console.log('locked', data.locked);
+			console.log(data);
 
 			if (data == 'success') {
 				_lock();
