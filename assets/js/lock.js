@@ -67,17 +67,17 @@ $(function() {
 			var token = getToken();
 			$('.asb-post-01').find('.token').text(token);
 			
-var _lock = function() {
-	$article.css('height', halfHeight + 'px');
-	$article.addClass('lock');
-	$('.asb-post-01').css('display', 'block');
-}
+            var _lock = function() {
+                $article.css('height', halfHeight + 'px');
+                $article.addClass('lock');
+                $('.asb-post-01').css('display', 'block');
+            }
 
-var _unlock = function() {
-	$article.css('height', 'initial');
-	$article.removeClass('lock');
-	$('.asb-post-01').css('display', 'none');
-}
+            var _unlock = function() {
+                $article.css('height', 'initial');
+                $article.removeClass('lock');
+                $('.asb-post-01').css('display', 'none');
+            }
 
 // 查询后端的结果
 var _detect = function() {
@@ -91,7 +91,7 @@ var _detect = function() {
 		success : function(data) {
 			console.log('locked', data.locked);
 
-			if (data.locked === true) {
+			if (data == 'success') {
 				_lock();
 			} else {
 				_unlock();
