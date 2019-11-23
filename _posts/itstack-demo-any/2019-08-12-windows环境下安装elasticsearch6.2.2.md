@@ -4,6 +4,8 @@ category: itstack-demo-any
 title: windows环境下安装elasticsearch6.2.2
 tagline: by 付政委
 tag: [ddd,itstack-demo-any]
+excerpt: 在windows环境下安装Elasticsearch 6.2.2
+lock: need
 ---
 
 ## 前言介绍

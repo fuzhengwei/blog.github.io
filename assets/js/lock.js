@@ -23,15 +23,29 @@ function getCookie(name) {
 		return parts.pop().split(";").shift();
 }
 
-function getToken() {
-	let value = getCookie('UM_distinctid');
-	if (!value) {
-		return defaultToken;
-	}
-	return value.substring(value.length - 6).toUpperCase();
+function setCookie(name, value){
+    var Days = 365;
+    var exp = new Date();
+    exp.setTime(exp.getTime() + Days*24*60*60*1000);
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
 }
 
+function getToken() {
+	let value = getCookie('BUGSTACK_distinctid');
+	if (!value) {
+        var uuid = getUUID();
+        setCookie('BUGSTACK_distinctid',uuid);
+		return uuid;
+	}
+	return uuid.toUpperCase();
+}
 
+function getUUID(){
+    return 'xxxxxx'.replace(/[xy]/g, function(c) {
+                var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+                return v.toString(16);
+    });
+}
 
 // 文章所在容器的选择器
 var articleSelector = 'article.post.container.need';
@@ -69,7 +83,7 @@ var _unlock = function() {
 var _detect = function() {
 	console.log('Detecting Token', token);
 	$.ajax({
-		url : 'http://ityouknow.com/jfinal/wx/',
+		url : 'http://wx.bugstack.cn/itstack-ark-wx/api/check',
 		method : 'GET',
 		data : {
 			token : token
