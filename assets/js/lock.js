@@ -33,7 +33,7 @@ function setCookie(name, value){
 function getToken() {
 	let value = getCookie('BUGSTACK_distinctid');
 	if (!value) {
-        var value = getUUID();
+        value = getUUID();
         setCookie('BUGSTACK_distinctid',value);
 		return value;
 	}
