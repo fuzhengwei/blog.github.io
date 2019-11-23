@@ -84,7 +84,7 @@ var _detect = function() {
 	console.info(token);
 	$.ajax({
 		url : 'https://wx.bugstack.cn/itstack-ark-wx/api/check',
-		method : 'GET',
+		type: "GET",
 		data : {
 			token : token
 		},
