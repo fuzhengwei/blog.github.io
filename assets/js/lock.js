@@ -52,32 +52,32 @@ var articleSelector = 'article.post.container.need';
 
 // DOM 完全就绪时执行
 $(function() {
-	// 找到文章所在的容器
-	var $article = $(articleSelector);
-	if ($article.length > 0) {
-		// 文章的实际高度
-		var article = $article[0], height = article.clientHeight;
-		// 文章隐藏后的高度
-		var halfHeight = height * 0.8;
-		
-		// 篇幅短一点的文章就不需要解锁了
-		if (os.isPc && halfHeight > 800) {
-			
-			// 获取口令
-			var token = getToken();
-			$('.asb-post-01').find('.token').text(token);
-			
-            var _lock = function() {
-                $article.css('height', halfHeight + 'px');
-                $article.addClass('lock');
-                $('.asb-post-01').css('display', 'block');
-            }
+// 找到文章所在的容器
+var $article = $(articleSelector);
+if($article.length <= 0) return;
 
-            var _unlock = function() {
-                $article.css('height', 'initial');
-                $article.removeClass('lock');
-                $('.asb-post-01').css('display', 'none');
-            }
+// 文章的实际高度
+var article = $article[0], height = article.clientHeight;
+// 文章隐藏后的高度
+var halfHeight = height * 0.8;
+// 篇幅短一点的文章就不需要解锁了
+if (os.isPc && halfHeight > 800) {
+    // 获取口令
+    var token = getToken();
+    $('.asb-post-01').find('.token').text(token);
+}
+
+var _lock = function() {
+    $article.css('height', halfHeight + 'px');
+    $article.addClass('lock');
+    $('.asb-post-01').css('display', 'block');
+}
+
+var _unlock = function() {
+    $article.css('height', 'initial');
+    $article.removeClass('lock');
+    $('.asb-post-01').css('display', 'none');
+}
 
 // 查询后端的结果
 var _detect = function() {
@@ -90,7 +90,6 @@ var _detect = function() {
 		},
 		success : function(data) {
 			console.log(data);
-
 			if (data == 'success') {
 				_lock();
 			} else {
@@ -103,10 +102,10 @@ var _detect = function() {
 	})
 }
 
+// 定时任务
 _detect();
 setInterval(function() {
 	_detect();
 }, 5000);
-		}
-	}
+
 });
