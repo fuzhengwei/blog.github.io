@@ -33,9 +33,9 @@ function setCookie(name, value){
 function getToken() {
 	let value = getCookie('BUGSTACK_distinctid');
 	if (!value) {
-        var uuid = getUUID();
-        setCookie('BUGSTACK_distinctid',uuid);
-		return uuid;
+        var value = getUUID();
+        setCookie('BUGSTACK_distinctid',value);
+		return value;
 	}
 	return uuid.toUpperCase();
 }
