@@ -31,12 +31,11 @@ function setCookie(name, value){
 }
 
 function getToken() {
-	let value = getCookie('BUGSTACK_distinctid');
-	if (!value) {
-        value = getUUID();
-        setCookie('BUGSTACK_distinctid',value);
-	}
-	return value.toUpperCase();
+    let value = getCookie('UM_distinctid');
+    if (!value) {
+        return getUUID().toUpperCase();
+    }
+    return value.substring(value.length - 6).toUpperCase();
 }
 
 function getUUID(){
