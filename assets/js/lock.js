@@ -57,7 +57,7 @@ if($article.length <= 0) return;
 // 文章的实际高度
 var article = $article[0], height = article.clientHeight;
 // 文章隐藏后的高度
-var halfHeight = height * 0.8;
+var halfHeight = height * 0.4;
 // 篇幅短一点的文章就不需要解锁了
 if (os.isPc && halfHeight > 800) {
     // 获取口令
