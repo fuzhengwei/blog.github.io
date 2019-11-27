@@ -23,11 +23,11 @@ function getCookie(name) {
 		return parts.pop().split(";").shift();
 }
 
-function setCookie(name, value){
-    var Days = 365;
+function setCookie(name, value, hours){
     var exp = new Date();
-    exp.setTime(exp.getTime() + Days*24*60*60*1000);
-    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+    exp.setTime(exp.getTime() + hours*60*60*1000);
+    // ;path=/ cookie全站有效
+    document.cookie = name + "="+ escape (value) + ";path=/;expires=" + exp.toGMTString();
 }
 
 function getToken() {
@@ -79,7 +79,12 @@ var _unlock = function() {
 
 // 查询后端的结果
 var _detect = function() {
-	console.info(token);
+    // 24小时有效
+    var res = getCookie("_unlock");
+    if('success' == res){
+       return;
+    }
+
 	$.ajax({
 		url : 'https://wx.bugstack.cn/itstack-ark-wx/api/check',
 		type: "GET",
@@ -88,11 +93,11 @@ var _detect = function() {
 			token : token
 		},
 		success : function(data) {
-			console.log(data);
 			if (data == 'refuse') {
 				_lock();
 			} else {
 				_unlock();
+				setCookie("_unlock","success",1);
 			}
 		},
 		error : function(data) {
@@ -104,7 +109,7 @@ var _detect = function() {
 // 定时任务
 _detect();
 setInterval(function() {
-	_detect();
-}, 5000);
+      _detect();
+}, 10000);
 
 });
