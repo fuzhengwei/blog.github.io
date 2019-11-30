@@ -4,6 +4,8 @@ category: itstack-demo-agent
 title: 基于JavaAgent的全链路监控一《嗨！JavaAgent》
 tagline: by 付政委
 tag: [javaagent,itstack-demo-agent]
+excerpt: 全链路监控又名分布式监控系统全链路追踪，目前市面的全链路监控系统基本都是参考Google的[Dapper](https://mp.weixin.qq.com/s?__biz=MzIxMDAwMDAxMw==&mid=2650724660&idx=1&sn=0f33d3386c7652bf536cb071e9f79921&chksm=8f6138d6b816b1c0d92fb75257da4fc8ddefb7ec53dfcad98dffec87740df455cc75aa7b4a5c&token=144816615&lang=zh_CN#rd)（大规模分布式系统的跟踪系统）来做的。例如；蚂蚁金服分布式链路跟踪组件SOFATracer、Gokit微服务-服务链路追踪 、Pinpoint、Prometheus(普罗米修斯)等等。
+lock: need
 ---
 
 ## 前言介绍

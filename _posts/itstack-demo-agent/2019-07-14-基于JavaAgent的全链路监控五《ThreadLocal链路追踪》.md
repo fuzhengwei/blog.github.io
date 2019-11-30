@@ -4,6 +4,8 @@ category: itstack-demo-agent
 title: 基于JavaAgent的全链路监控五《ThreadLocal链路追踪》
 tagline: by 付政委
 tag: [javaagent,itstack-demo-agent]
+excerpt: Google开源的Dapper链路追踪组件，并在2010年发表了论文《Dapper, a Large-Scale Distributed Systems Tracing Infrastructure》，这篇文章是业内实现链路追踪的标杆和理论基础，具有非常大的参考价值。目前，链路追踪组件有Google的Dapper，Twitter 的Zipkin，以及阿里的Eagleeye （鹰眼）等，它们都是非常优秀的链路追踪开源组件。本文主要讲述如何在Spring Cloud Sleuth中集成Zipkin。在Spring Cloud Sleuth中集成Zipkin非常的简单，只需要引入相应的依赖和做相关的配置即可。
+lock: need
 ---
 
 ## 章节列表

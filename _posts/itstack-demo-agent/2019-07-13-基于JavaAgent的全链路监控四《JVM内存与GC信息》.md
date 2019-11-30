@@ -4,6 +4,8 @@ category: itstack-demo-agent
 title: 基于JavaAgent的全链路监控四《JVM内存与GC信息》
 tagline: by 付政委
 tag: [javaagent,itstack-demo-agent]
+excerpt: 除了监控java方法的执行耗时，我们还需要获取应用实例的jvm内存与gc信息，以实时把控我们的服务器性能是否在安全范围。监控jvm内存与gc信息是非常重要的，尤其是在大促以及微博火热爆点的时候，我们需要根据监控信息进行扩容，以保证系统稳定。
+lock: need
 ---
 
 ## 章节列表

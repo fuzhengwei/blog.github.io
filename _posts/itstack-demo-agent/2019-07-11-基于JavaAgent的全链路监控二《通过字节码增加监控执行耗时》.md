@@ -4,6 +4,8 @@ category: itstack-demo-agent
 title: 基于JavaAgent的全链路监控二《通过字节码增加监控执行耗时》
 tagline: by 付政委
 tag: [javaagent,itstack-demo-agent]
+excerpt: 通过上一章节的介绍《嗨！JavaAgent》，我们已经知道通过配置-javaagent:文件.jar后，在java程序启动时候会执行premain方法。接下来我们使用javassist字节码增强的方式，来监控方法程序的执行耗时。
+lock: need
 ---
 
 ## 章节列表

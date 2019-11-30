@@ -4,6 +4,8 @@ category: itstack-demo-springcloud
 title: Spring Cloud(三)《应用服务快速失败熔断降级保护 Hystrix》
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
+excerpt: 在互联网开发中经常会听到雪崩效应，比如某明星发一些状态某猿就要回去加班了！那么为了应对雪崩我们经常会进行服务扩容、添加缓存、优化流程但往往突发的事件依然有击穿缓存、应用负载、数据库IO、网络异常等等带来的风险，所以一些常见的做法有服务降级、限流、熔断，在逐步恢复系统可用率来保护系统。
+lock: need
 ---
 
 ## 前言介绍

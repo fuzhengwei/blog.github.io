@@ -4,6 +4,8 @@ category: itstack-demo-springcloud
 title: Spring Cloud(五)《Turbine 监控信息聚合展示 Hystrix》
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
+excerpt: Hystrix Dashboard 可以定时收集接口调用信息；时长、次数、性能、熔断等各项指标来进行监控展示，但是我们每次监控都需要输入一个Hystrix 的链接例如：http://localhost:9001/actuator/hystrix.stream，但是这样并不利于我们去做整体服务的监控，并且在实际使用的过程中如果是几十到几百个接口那么这样的监控几乎达不到监控效果，就累死在监控路上了。因此我们需要使用到 Turbine 来进行监控信息聚合，可以按业务组定义配置方便监控。
+lock: need
 ---
 
 ## 前言介绍

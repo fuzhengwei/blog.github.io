@@ -4,6 +4,8 @@ category: itstack-demo-agent
 title: 基于JavaAgent的全链路监控六《开发应用级监控》
 tagline: by 付政委
 tag: [javaagent,itstack-demo-agent]
+excerpt: 在我们的监控程序中，需要对各种模块进行监控；servlet、rpc、http、jdbc、redis、logic等，那么我们在设计监控程序时就需要对监控的程序进行模块化开发，可以在需要的时候进行组装配置即可，以方便我们监控程序的扩展和可控制性。这一章节我们把监控模块剥离，采用工厂模式进行调用｛目前是静态工厂在我们实际使用中可以把工厂做成动态配置化｝。
+lock: need
 ---
 
 ## 章节列表

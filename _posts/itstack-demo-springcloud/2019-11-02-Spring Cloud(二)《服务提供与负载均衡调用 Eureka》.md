@@ -4,6 +4,8 @@ category: itstack-demo-springcloud
 title: Spring Cloud(二)《服务提供与负载均衡调用 Eureka》
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
+excerpt: 本章节提供一个基于Eurka的服务注册中心，两个服务提供者之后分别使用Ribbon、Fegin方式进行调用，测试负载均衡。
+lock: need
 ---
 
 ## 前言介绍

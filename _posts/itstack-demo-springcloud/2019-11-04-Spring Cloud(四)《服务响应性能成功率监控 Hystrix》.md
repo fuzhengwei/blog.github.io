@@ -4,6 +4,8 @@ category: itstack-demo-springcloud
 title: Spring Cloud(四)《服务响应性能成功率监控 Hystrix》
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
+excerpt: Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内的请求调用情况来判断并操作断路器的链接和熔断状态保护系统快速失败服务降级，而这些请求情况的指标信息都是 HystrixCommand 和 HystrixObservableCommand 服务实例在执行过程中记录的重要指标信息，它们除了 Hystrix 断路器实现中使用之外，对于系统运维也有非常大的帮助。这些指标信息会以 “滚动时间窗” 与 “桶” 结合的方式进行汇总，并在内存中驻留一段时间，以供内部或外部进行查询使用，Hystrix Dashboard 就是这些指标内容的消费者之一。
+lock: need
 ---
 
 ## 前言介绍

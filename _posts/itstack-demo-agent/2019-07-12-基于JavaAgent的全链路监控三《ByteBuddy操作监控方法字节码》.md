@@ -4,6 +4,8 @@ category: itstack-demo-agent
 title: 基于JavaAgent的全链路监控三《ByteBuddy操作监控方法字节码》
 tagline: by 付政委
 tag: [javaagent,itstack-demo-agent]
+excerpt: 在第二章中我们已经可以监控方法执行耗时，虽然它能完成我们一些基本需要，但是为了增强代码的扩展性，我们需要使用字节码操作工具ByteBuddy来帮助我们实现更完善的监控程序。
+lock: need
 ---
 
 ## 章节列表

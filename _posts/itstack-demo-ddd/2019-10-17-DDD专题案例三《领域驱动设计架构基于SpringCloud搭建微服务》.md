@@ -4,6 +4,8 @@ category: itstack-demo-ddd
 title: DDD专题案例三《领域驱动设计架构基于SpringCloud搭建微服务》
 tagline: by 付政委
 tag: [ddd,itstack-demo-ddd]
+excerpt: 微服务不是泥球小单体，而是具备更加清晰职责边界的完整一体的业务功能服务。领域驱动设计的思想通过Domain的功能域设计，可以把核心功能与支撑功能很好的区分开。而在MVC的设计模式尝尝是把所有的；数据服务、定义的属性类、提供的功能都在一条线上，这样是非常快速的开发方式但在做微服务部署时候确很麻烦。
+lock: need
 ---
 
 ## 前言介绍
