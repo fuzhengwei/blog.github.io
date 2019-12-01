@@ -1,7 +1,7 @@
 ---
 layout: post
 category: itstack-demo-netty-3
-title: 手写RPC框架第三章《RPC中间件》
+title: websocket与下位机通过netty方式通信传输行为信息
 tagline: by 付政委
 tag: [netty,itstack-demo-netty-3] 
 excerpt: 在物联网开发中，常常需要通过网页端来控制设备，包括；获取信息、执行操作、启动停止等，就像我们在手机上会控制家里的小米盒子、路由器、电饭煲或者在线养狗等一些设备一样。在这里所有的下层设备都可以通过socket通信链接到服务端，而用户一端在通过http链接或者websocket链接到服务端，通过发送和接收数据来做出相应的行为操作。
