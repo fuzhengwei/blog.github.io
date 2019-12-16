@@ -12,7 +12,7 @@ lock: need
 
 - 分布式任务DcsSchedule中间件，Github地址：[https://github.com/fuzhengwei/schedule-spring-boot-starter](https://github.com/fuzhengwei/schedule-spring-boot-starter)
 - 分布式任务DcsSchedule控制台，Github地址：[https://github.com/fuzhengwei/itstack-middleware-control](https://github.com/fuzhengwei/itstack-middleware-control)
-- 欢迎⭐Star和使用，你用剑🗡、我用刀🔪，好的代码都很骚😏，望你不吝出招💨！
+- 欢迎⭐Star和使用，你用剑🗡、我用刀🔪，好的代码都很烧😏，望你不吝出招💨！
 
 ## 前言
 
@@ -46,10 +46,10 @@ public class Application{
 嗯？有人憋半天了想说可以用~~Quertz~~，嗯可以的，但这不是本篇文章的重点。难道你不想看看一个自言开源中间件是怎么诞生的吗，怎么推到中心Maven仓的吗？比如下图；**真香不！**
 
 >**首页监控**
-![微信公众号：bugstack虫洞栈 & 首页监控](https://raw.githubusercontent.com/fuzhengwei/fuzhengwei.github.io/master/assets/images/pic-content/2019/11/itstack-middleware-schedule-release-00.png)
+![微信公众号：bugstack虫洞栈 & 首页监控](https://bugstack.cn/assets/images/pic-content/2019/11/itstack-middleware-schedule-release-00.png)
 
 >**任务列表**
-![微信公众号：bugstack虫洞栈 & 任务列表](https://raw.githubusercontent.com/fuzhengwei/fuzhengwei.github.io/master/assets/images/pic-content/2019/11/itstack-middleware-schedule-release-01.png)
+![微信公众号：bugstack虫洞栈 & 任务列表](https://bugstack.cn/assets/images/pic-content/2019/11/itstack-middleware-schedule-release-01.png)
 
 😀好了，接下来开始介绍这个中间件如何使用和怎么开发的了！
 
