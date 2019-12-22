@@ -121,6 +121,9 @@ navs:
       -
         subHref: /itstack-demo-ddd/itstack-demo-ddd.html
         subLabel: 领域驱动设计
+      -
+        subHref: /itstack-demo-frame/itstack-demo-frame.html
+        subLabel: 架构框架搭建
 
   -
     href: /archives.html
