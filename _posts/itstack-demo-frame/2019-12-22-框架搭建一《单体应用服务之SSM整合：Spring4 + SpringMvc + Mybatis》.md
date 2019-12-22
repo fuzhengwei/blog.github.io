@@ -1,7 +1,7 @@
 ---
 layout: post
 category: itstack-demo-ddd
-title: 框架搭建一《单体应用服务之SSS整合：Spring4 + SpringMvc + Mybatis》
+title: 框架搭建一《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》
 tagline: by 付政委
 tag: [ddd,itstack-demo-frame]
 excerpt: 在实际的业务开发中按照不同的场景需要，会有不同的业务架构也就同时会有不同的技术框架来支撑。那么这个专题想把一些常用的框架整理下，方便平时使用的同时也做一些技术沉淀。那么本章节会先搭建一个比较适合个人项目或者一些小公司开发项目的单体架构模型。服务功能展示页面如下；
