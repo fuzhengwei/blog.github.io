@@ -1,6 +1,6 @@
 ---
 layout: post
-category: itstack-demo-ddd
+category: itstack-demo-frame
 title: 架构框架搭建(一)《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》
 tagline: by 付政委
 tag: [ddd,itstack-demo-frame]
