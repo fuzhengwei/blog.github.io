@@ -652,6 +652,6 @@ Process finished with exit code 0
 
 >小傅哥 | 沉淀、分享、成长，让自己和他人都能有所收获！
 
-![微信公众号：bugstack虫洞栈](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAyMC8xLzcvMTZmN2RhOTFkNmUwMmE0ZQ?x-oss-process=image/format,png)
+![微信公众号：bugstack虫洞栈](https://bugstack.cn/assets/images/qrcode2020.png)
 
 
