@@ -366,7 +366,7 @@ public class MapperScannerConfigurer implements BeanDefinitionRegistryPostProces
 - 这里有一点，bean的定义设置时候，是把beanDefinition.setBeanClass(MapperFactoryBean.class);设置进去的。同时在前面给他设置了构造参数。**（细细品味）**
 - 最后执行注册registry.registerBeanDefinition(beanName, definitionHolder.getBeanDefinition());
 
-### 3. (类介绍)MapperFactoryBean
+### 4. (类介绍)MapperFactoryBean
 
 这个类就非常有意思了，因为你所有的dao接口类，实际就是他。他这里帮你执行你对sql的所有操作的分发处理。为了更加简化清晰，目前这里只实现了查询部分，在mybatis-spring源码中分别对select、update、insert、delete、其他等做了操作。
 
