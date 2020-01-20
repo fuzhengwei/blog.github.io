@@ -12,10 +12,11 @@ permalink: /link
 - [纯洁的微笑](http://www.ityouknow.com/) - 分享技术，品味人生
 - [沉默王二](http://www.itwanger.com/) - 一枚有趣的程序员
 - [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
+- [过往记忆](https://www.iteblog.com) - 专注于大数据技术与应用
+- [猿人谷](http://www.yuanrengu.com/) - 成为大牛没有捷径，唯有积累
 - [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 - [IT玩客申请友链](https://www.91the.top) - IT玩客 - 记录程序员生涯中 值得回味 值得把玩的技术
 - [低调小熊猫](http://ilovey.live) - Who can keep youth forever, it is a great man.🥚
-- [猿人谷](http://www.yuanrengu.com/) - 成为大牛没有捷径，唯有积累
 
 ## 推荐网站
 
