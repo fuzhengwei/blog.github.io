@@ -16,6 +16,8 @@ permalink: /link
 - [猿人谷](http://www.yuanrengu.com/) - 成为大牛没有捷径，唯有积累
 - [程序新世界](https://www.choupangxia.com) - 一个软技能、硬实力同时提升的博客
 - [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
+- [IT玩客](https://www.91the.top) - 记录程序员生涯中 值得回味 值得把玩的技术
+- [低调小熊猫](http://ilovey.live) - Who can keep youth forever, it is a great man.
 
 ## 推荐网站
 
