@@ -15,8 +15,7 @@ permalink: /link
 - [过往记忆](https://www.iteblog.com) - 专注于大数据技术与应用
 - [猿人谷](http://www.yuanrengu.com/) - 成为大牛没有捷径，唯有积累
 - [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
-- [IT玩客申请友链](https://www.91the.top) - IT玩客 - 记录程序员生涯中 值得回味 值得把玩的技术
-- [低调小熊猫](http://ilovey.live) - Who can keep youth forever, it is a great man.🥚
+- [程序新世界](https://www.choupangxia.com) - 一个软技能、硬实力同时提升的博客
 
 ## 推荐网站
 
