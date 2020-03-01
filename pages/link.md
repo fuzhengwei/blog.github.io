@@ -14,8 +14,8 @@ permalink: /link
 - [江南一点雨](https://www.javaboy.org/) - 专注于 Spring Boot + 微服务
 - [过往记忆](https://www.iteblog.com) - 专注于大数据技术与应用
 - [猿人谷](http://www.yuanrengu.com/) - 成为大牛没有捷径，唯有积累
-- [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 - [程序新世界](https://www.choupangxia.com) - 一个软技能、硬实力同时提升的博客
+- [Java极客技术](http://www.justdojava.com) - Java 技术人的一片天地
 
 ## 推荐网站
 
