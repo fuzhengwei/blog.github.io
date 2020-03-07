@@ -1,6 +1,6 @@
 ---
 layout: post
-category: itstack-demo-any
+category: itstack-demo-netty-3
 title: 《Netty+JavaFx实战：仿桌面版微信聊天》
 tagline: by 付政委
 tag: [itstack-demo-code,itstack-demo-any]
@@ -11,10 +11,10 @@ excerpt: 本专栏是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql
 
 >本项目是作者小傅哥使用```JavaFx```、```Netty4.x```、```SpringBoot```、```Mysql```等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。如果本项目能为您提供帮助，请给予支持(关注、点赞、分享)！
 
-雨后天晴写下、年华，
-巫山云景彩霞、如画。
-心似平远走**码**、飞驾，
-正装年少风华、正恰。
+雨后天晴写下、年华，<br/>
+巫山云景彩霞、如画。<br/>
+心似平远走**码**、飞驾，<br/>
+整装年少风华、正恰。<br/>
 
 走过了一个漫长的假期，从年假的第一天开始因为不能但又不能让自己太闲，就开始研究将所学的```Netty```技术实践一把，以此来巩固不同类型的技术栈在实际业务中的使用。那么使用Netty仿微信项目就此开始了！
 
