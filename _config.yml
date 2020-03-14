@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  bugstack虫洞栈 v1.5.4 | 沉淀、分享、成长，让自己和他人都能有所收获
+title:  bugstack虫洞栈 v1.5.5 | 沉淀、分享、成长，让自己和他人都能有所收获
 subtitle: 沉淀、分享、成长，让自己和他人都能有所收获
 name: bugstack虫洞栈
 email: 184172133@qq.com
@@ -84,6 +84,8 @@ navs:
     subnav:
       - subHref: /itstack-demo-any/itstack-demo-any.html
         subLabel: 编程基础
+      - subHref: /itstack-demo-algorithm/itstack-demo-algorithm.html
+        subLabel: 野路子搞算法
       - subHref: /itstack-demo-springcloud/itstack-demo-springcloud.html
         subLabel: Spring Cloud
       - subHref: /itstack-demo-jvm/itstack-demo-jvm.html
